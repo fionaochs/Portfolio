@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 .Header {
   background-color: #5397ad;
   position: fixed;
@@ -12,12 +13,12 @@ body {
   margin: 0;
   display: grid;
   place-items: center;
-  background: white;
+  background: rgba(96, 148, 143, 0.726);
 }
 
 #title {
   background: white;
-  color: teal;
+  color: rgb(6, 90, 134);
   padding: .5rem;
   width: 55vw;
   border-radius: 2em;
@@ -51,7 +52,8 @@ body {
   text-align: center;
 }
 .aboutbutton:hover {
-  background-color: #7095c6;
+  background-color: rgba(44, 134, 125, 0.438);
+  color: aliceblue;
   cursor: pointer;
 }
 .contactDiv {
@@ -71,7 +73,8 @@ body {
   text-align: center;
 }
 .contactbutton:hover {
-  background-color: #7095c6;
+  background-color: rgba(44, 134, 125, 0.438);
+  color: aliceblue;
   cursor: pointer;
 }
 .projectsDiv {
@@ -91,7 +94,8 @@ body {
   text-align: center;
 }
 .projectsbutton:hover {
-  background-color: #7095c6;
+  background-color: rgba(44, 134, 125, 0.438);
+  color: white;
   cursor: pointer;
 }
 .techstackDiv {
@@ -112,16 +116,19 @@ body {
   text-align: center;
 }
 .techstackbutton:hover {
-  background-color: #7095c6;
+  background-color: rgba(44, 134, 125, 0.438);
+  color: white;
   cursor: pointer;
 }
 
 h1 {
-  font-size: 2em;
+  font-family: 'Vollkorn', serif;
+  font-size: 2.5em;
 }
   a {
-    font-family: 'Sen', sans-serif;
+    font-family: 'Vollkorn', serif;
     font-size: 1.5em;
+    /* font-size: 4vw; */
   }
   
   div {
@@ -136,4 +143,20 @@ h1 {
     margin: 1em auto 2em auto;
   }
 
-
+  @media only screen and (max-width: 768px) {
+    a {
+      font-size: 4vw;
+    }
+    h1 {
+      font-size: 4vw;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    a {
+      font-size: 4vw;
+    }
+    h1 {
+      font-size: 5vw;
+    }
+  }

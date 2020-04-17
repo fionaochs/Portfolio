@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { toolArr, backEnd, frontEnd, databases, langArr } from '../Data/Data';
 import List from '../List';
+import styles from './TechStack.css'
 
 export default class TechStack extends Component {
   render() {
