@@ -6,13 +6,21 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-      <Link className={styles.buttons} activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}>Contact</Link>
-      <Link className={styles.buttons} activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500}>About Me</Link>
-      <div className="logo">
-        <h1>Fiona Ochs</h1>
+        <div className="contactDiv">
+          <Link className="contactbutton" activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}>Contact</Link>
+        </div>
+        <div className="aboutDiv">
+          <Link className="aboutbutton" activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500}>About Me</Link>
+        </div>
+      <div className="titleDiv">
+        <h1 id="title">Fiona Ochs</h1>
       </div>
-      <Link className={styles.buttons} activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration={500}>Projects</Link>
-      <Link className={styles.buttons} activeClass="active" to="techstack" spy={true} smooth={true} offset={0} duration={500}>Tech Stack</Link>
+      <div className="projectsDiv">
+        <Link className="projectsbutton" activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration={500}>Projects</Link>
+      </div>
+      <div className="techstackDiv">
+        <Link className="techstackbutton" activeClass="active" to="techstack" spy={true} smooth={true} offset={0} duration={500}>Tech Stack</Link>
+      </div>
     </div>
     )
   }

@@ -7,8 +7,121 @@
   height: 98vh;
   box-shadow: 5px 5px 1px 1px lightgray;
 }
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: white;
+}
+
+#title {
+  background: white;
+  color: teal;
+  padding: .5rem;
+  width: 55vw;
+  border-radius: 2em;
+  margin: .5em .5em .5em .5em;
+  text-align: center;
+}
+.titleDiv {
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, rgb(11, 70, 62), rgb(40, 150, 148));
+  padding: 3px;
+  border: solid 4px teal;
+  width: 60vw;
+  border-radius: 2em;
+  margin: 1em 5em 1em 5em;
+}
+.aboutDiv {
+  border: solid 4px teal;
+  width: 40vw;
+  border-radius: 2em;
+  margin: .5em 5em .5em 5em;
+  background: linear-gradient(to right, rgb(11, 70, 62), rgb(40, 150, 148));
+}
+.aboutbutton {
+  background: white;
+  color: teal;
+  padding: .5rem 0 .5em 0;
+  width: 38vw;
+  border-radius: 2em;
+  margin: .5em .5em .5em .5em;
+  text-align: center;
+}
+.aboutbutton:hover {
+  background-color: #7095c6;
+  cursor: pointer;
+}
+.contactDiv {
+  border: solid 4px teal;
+  width: 20vw;
+  border-radius: 2em;
+  margin: 8em 5em .2em 5em;
+  background: linear-gradient(to right, rgb(11, 70, 62), rgb(40, 150, 148));
+}
+.contactbutton {
+  background: white;
+  color: teal;
+  padding: .5rem 0 .5em 0;
+  width: 18vw;
+  border-radius: 2em;
+  margin: .5em .5em .5em .5em;
+  text-align: center;
+}
+.contactbutton:hover {
+  background-color: #7095c6;
+  cursor: pointer;
+}
+.projectsDiv {
+  border: solid 4px teal;
+  width: 40vw;
+  border-radius: 2em;
+  margin: .2em 5em .2em 5em;
+  background: linear-gradient(to right, rgb(11, 70, 62), rgb(40, 150, 148));
+}
+.projectsbutton {
+  background: white;
+  color: teal;
+  padding: .5rem 0 .5em 0;
+  width: 38vw;
+  border-radius: 2em;
+  margin: .5em .5em .5em .5em;
+  text-align: center;
+}
+.projectsbutton:hover {
+  background-color: #7095c6;
+  cursor: pointer;
+}
+.techstackDiv {
+  border: solid 4px teal;
+  width: 20vw;
+  border-radius: 2em;
+  margin: .2em 5em 10em 5em;
+  background: linear-gradient(to right, rgb(11, 70, 62), rgb(40, 150, 148));
+
+}
+.techstackbutton {
+  background: white;
+  color: teal;
+  padding: .5rem 0 .5em 0;
+  width: 18vw;
+  border-radius: 2em;
+  margin: .5em .5em .5em .5em;
+  text-align: center;
+}
+.techstackbutton:hover {
+  background-color: #7095c6;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 2em;
+}
   a {
     font-family: 'Sen', sans-serif;
+    font-size: 1.5em;
   }
   
   div {
@@ -23,24 +136,4 @@
     margin: 1em auto 2em auto;
   }
 
-  .buttons {
-    font-size: 1.5vw;
-    font-weight: bolder;
-    color: whitesmoke;
-    border: solid whitesmoke .1vw;
-    width: 10vw;
-    height: 3vw;
-    text-align: center;
-    padding: .1vw;
-    margin-bottom: .7vw;
-  }
-
-  .buttons:hover {
-    background-color: #7095c6;
-    cursor: pointer;
-  }
-  nav {
-    display: flex;
-    flex-direction: column;
-  }
 
