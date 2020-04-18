@@ -1,0 +1,40 @@
+#contactDiv {
+  background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651));
+  width: 100vw;
+  padding: .1em 0 .1em 0;
+}
+.contactClass {
+  color: aliceblue;
+  font-size: 1em;
+}
+#icons {
+  display: flex;
+  flex-direction: row;
+}
+#icon {
+  padding: .5em .5em .5em .5em;
+  color: aliceblue;
+}
+#icon:hover {
+  color: rgb(44, 134, 125);
+}
+h3 {
+  margin: .5em .5em .5em .5em;
+}
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 1.5vw;
+  }
+  h1 {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h3 {
+    font-size: 1.5vw;
+  }
+  h1 {
+    font-size: 2vw;
+  }
+}
