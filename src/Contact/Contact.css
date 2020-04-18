@@ -6,6 +6,7 @@
 .contactClass {
   color: aliceblue;
   font-size: 1em;
+  margin-bottom: em;
 }
 #icons {
   display: flex;

@@ -5,6 +5,7 @@
 }
 #aboutDiv {
   position: relative;
+  color: white;
 }
 
 /* #aboutDiv::after {

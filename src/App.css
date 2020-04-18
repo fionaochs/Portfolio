@@ -1,36 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
-
-
 .container {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: auto;
 }
-  section {
-    /* position: absolute; */
-    /* left: 50%; */
-  }
 
-  p {
-    font-family: 'Vollkorn', serif;
-    font-size: 1rem;
-  }
-  
-  .emphasis {
-    font-family: 'Vollkorn', serif;
-    font-weight: 800;
-    font-style: italic;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 1.7rem;
-    margin-top: 1em;
-  }
-
-  h1, h3 {
-    font-family: 'Vollkorn', serif;
-    color: white;
-  }
