@@ -1,0 +1,11 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+.projectsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

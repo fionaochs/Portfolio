@@ -13,8 +13,11 @@ body {
   margin: 0;
   display: grid;
   place-items: center;
-  background: rgba(96, 148, 143, 0.726);
+  /* background: rgba(96, 148, 143, 0.726); */
+  background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651));
+  font-family: 'Vollkorn', serif;
 }
+
 
 #title {
   background: white;
@@ -124,6 +127,9 @@ body {
 h1 {
   font-family: 'Vollkorn', serif;
   font-size: 2.5em;
+}
+span {
+  font-size: .8em;
 }
   a {
     font-family: 'Vollkorn', serif;

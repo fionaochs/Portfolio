@@ -1,3 +1,56 @@
+.techDiv {
+  display: flex;
+  flex-direction: row;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  margin: .5em .5em .5em .5em;
+  padding: 1em 1em 1em 1em;
+  /* justify-content: center; */
+  align-items: center;
+  /* text-align: center; */
+}
 li {
-  display: inline;
+  font-family: 'Vollkorn', sans-serif;
+  list-style: none;
+  font-size: 1.5em;
+}
+h2 {
+  font-family: 'Vollkorn', sans-serif;
+  color: white;
+  font-size: 2.5em;
+
+}
+h3 {
+  font-family: 'Vollkorn', sans-serif;
+  color: white;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 768px) {
+  li {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 5vw;
+  }
+  h3 {
+    font-size: 5vw;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  li {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 5vw;
+  }
+  h3 {
+    font-size: 5vw;
+  }
 }

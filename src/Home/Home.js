@@ -14,6 +14,8 @@ export default class Home extends Component {
         </div>
       <div className="titleDiv">
         <h1 id="title">Fiona Ochs</h1>
+        {/* <br/>
+        <span>Full Stack Software Developer</span> */}
       </div>
       <div className="projectsDiv">
         <Link className="projectsbutton" activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration={500}>Projects</Link>
