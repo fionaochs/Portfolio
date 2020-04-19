@@ -13,8 +13,8 @@ export default class About extends Component {
           </div>
         <div className='top'>
           <img className="photos" id="hobbit" src={hobbitHole} alt='hobbit'></img>
-          <p id="text">Full Stack Software Developer, striving to produce clean, testable and maintainable code. I love the data manipulation and logic driven side of back-end, while also interested in converting that data to a concise user interface. <br/> <br/>
-          When I am not coding, and not stuck at home, I love to travel, be out  hiking, doing crossfit, baking healthy treats, brewing kombucha, playing board games and reading.
+          <p id="text">Full Stack Software Developer, striving to produce clean, testable and maintainable code. I love the data manipulation and logic driven side of back-end, while also interested, in converting that data to concise data visualizations and user interfaces. <br/> <br/>
+          When I am not coding, and not stuck at home, I love to travel, be out  hiking, do crossfit, bake healthy treats, brew kombucha, play board games and read.
           </p> 
           <img className="photos" id="cook" src={mtCook} alt='mtCook'></img>
         </div>

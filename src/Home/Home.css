@@ -14,7 +14,8 @@ body {
   display: grid;
   place-items: center;
   width: 100vw;
-  background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651));
+  background: rgba(46, 128, 127, 0.575);
+  /* background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651)); */
   font-family: 'Vollkorn', serif;
 }
 
@@ -157,7 +158,7 @@ span {
     }
     body {
       width: 200vw;
-      background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651));
+      /* background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651)); */
     }
   }
   

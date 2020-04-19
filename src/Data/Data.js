@@ -11,7 +11,7 @@ export const databases = ['PostgreSQL', 'MongoDB', 'Mongoose'];
 export const projects = [
   {
     title: 'Shadespeare, Bard of Insults',
-    img: 'https:placekitten/200/200',
+    img: 'http://placekitten.com/200/300',
     description: 'Markov generated insult bot that allows the user to chat with Shadespeare, who generates responses seeded with the users input. Includes a zoom bot using twilio for text to speech functionality that allows Shadespeare to enter Zoom meetings.',
     tech: ['Node.js', 'MongoDB', 'React', 'Twilio', 'Express'],
     liveLink: 'https://shadespeare-insults.herokuapp.com/',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Groupies, Connecting through concerts',
-    img: 'https:placekitten/200/200',
+    img: 'http://placekitten.com/200/300',
     description: 'Social media app for concert lovers to connect with friends and share their upcoming concerts on social media platforms. User interface developed with React, with a SQL backend API.',
     tech: ['PostgreSQL', 'React'],
     liveLink: 'https://fierce-taiga-25449.herokuapp.com/',
@@ -27,7 +27,7 @@ export const projects = [
   },
   {
     title: 'Alchimia',
-    img: 'https:placekitten/200/200',
+    img: 'http://placekitten.com/200/300',
     description: 'Tile generated board game built with Javascript, random tile generation, tile scoring and valid tile placement constraints following game rules.',
     tech: ['Node.js', 'MongoDB', 'React', 'Twilio', 'Express'],
     liveLink: 'https://seharlan.github.io/alchimia/',

@@ -39,17 +39,15 @@ h3 {
     font-size: 3vw;
   }
   h2 {
-    font-size: 5vw;
+    font-size: 1rem;
   }
   h3 {
-    font-size: 5vw;
+    font-size: 3vw;
   }
   ul {
     width: 5vw;
   }
-  /* .techDiv {
-    width: 20vw;
-  } */
+  
   #techTitle {
     width: 200vw;
   }
@@ -63,7 +61,7 @@ h3 {
     font-size: 5vw;
   }
   h3 {
-    font-size: 5vw;
+    font-size: 3vw;
   }
   ul {
     width: 5vw;

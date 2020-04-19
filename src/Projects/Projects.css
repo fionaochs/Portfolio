@@ -6,9 +6,18 @@
 h1 {
   color: white;
 }
+.projectItems {
+  display: flex;
+  flex-direction: row;
+}
+#description {
+  width: 60vw;
+}
+.textSection {
+  width: 80vw;
+}
 .projects {
   padding: 40px;
-  background: #419be0;
 }
 .carousel-root {
   width: 90vw;
@@ -21,15 +30,29 @@ h1 {
 .slick-slide img {
   margin: auto;
 }
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(44, 134, 125);
+  text-decoration: none;
+}
+p {
+  padding: .5em .5em .5em .5em;
+  display: flex;
+  flex-direction: row;
+  color: aliceblue
+}
 @media only screen and (max-width: 768px) {
   li {
     font-size: 3vw;
   }
   h2 {
-    font-size: 5vw;
+    font-size: 3vw;
   }
-  h3 {
-    font-size: 5vw;
+  h3, a {
+    font-size: 3vw;
   }
   #projectsDiv {
     width: 200vw;
@@ -41,10 +64,10 @@ h1 {
     font-size: 3vw;
   }
   h2 {
-    font-size: 5vw;
+    font-size: 3vw;
   }
-  h3 {
-    font-size: 5vw;
+  h3, a {
+    font-size: 3vw;
   }
   #projectsDiv {
     width: 200vw;

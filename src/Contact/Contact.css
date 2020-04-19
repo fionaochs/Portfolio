@@ -8,6 +8,9 @@
   font-size: 1em;
   margin-bottom: em;
 }
+#sentence {
+  font-size: 1.5em;
+}
 #icons {
   display: flex;
   flex-direction: row;
@@ -15,15 +18,17 @@
 #icon {
   padding: .5em .5em .5em .5em;
   color: aliceblue;
+  font-size: 2em;
 }
 #icon:hover {
   color: rgb(44, 134, 125);
 }
 h3 {
   margin: .5em .5em .5em .5em;
+  font-size: 1vw;
 }
 @media only screen and (max-width: 768px) {
-  h3 {
+  #sentence {
     font-size: 3vw;
   }
   h1 {
@@ -32,10 +37,13 @@ h3 {
   #contactDiv {
     width: 200vw;
   }
+  #icon {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-  h3 {
+  #sentence {
     font-size: 3vw;
   }
   h1 {
@@ -43,5 +51,8 @@ h3 {
   }
   #contactDiv {
     width: 200vw;
+  }
+  #icon {
+    font-size: 1em;
   }
 }
