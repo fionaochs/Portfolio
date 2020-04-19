@@ -7,7 +7,9 @@ export default class TechStack extends Component {
   render() {
     return (
       <div id="techstack">
-        <h2>Tech Stack</h2>
+        <div id="techTitle">
+          <h2>Tech Stack</h2>
+        </div>
         <div className="techDiv">
           <List className="list" arr={langArr} title={'Languages'} />
           <List className="list" arr={toolArr} title={'Tools'} />

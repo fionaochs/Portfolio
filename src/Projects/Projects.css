@@ -6,3 +6,18 @@
 h1 {
   color: white;
 }
+.projects {
+  padding: 40px;
+  background: #419be0;
+}
+.carousel-root {
+  width: 90vw;
+  height: 80vh;
+}
+.carousel .control-dots {
+  flex-direction: row;
+  justify-content: center;
+}
+.slick-slide img {
+  margin: auto;
+}
