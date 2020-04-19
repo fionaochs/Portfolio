@@ -24,18 +24,24 @@ h3 {
 }
 @media only screen and (max-width: 768px) {
   h3 {
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
   h1 {
     font-size: 4vw;
+  }
+  #contactDiv {
+    width: 200vw;
   }
 }
 
 @media only screen and (max-width: 320px) {
   h3 {
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
   h1 {
     font-size: 2vw;
+  }
+  #contactDiv {
+    width: 200vw;
   }
 }

@@ -12,9 +12,7 @@ ul{
   flex-direction: column;
   margin: .5em .5em .5em .5em;
   padding: 1em 1em 1em 1em;
-  /* justify-content: center; */
   align-items: center;
-  /* text-align: center; */
 }
 li {
   font-family: 'Vollkorn', sans-serif;
@@ -46,6 +44,15 @@ h3 {
   h3 {
     font-size: 5vw;
   }
+  ul {
+    width: 5vw;
+  }
+  /* .techDiv {
+    width: 20vw;
+  } */
+  #techTitle {
+    width: 200vw;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -57,5 +64,11 @@ h3 {
   }
   h3 {
     font-size: 5vw;
+  }
+  ul {
+    width: 5vw;
+  }
+  #techTitle {
+    width: 200vw;
   }
 }

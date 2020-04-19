@@ -13,22 +13,12 @@ export default class Projects extends Component {
         <div id="projectsDiv">
           <h1>Projects</h1>
         </div>
-      <Carousel id="carousel" infiniteLoop={true} showThumbs={false}>        
-          <div>
-            <h3>title</h3>
-            <img alt=''></img>
-          </div>
-          <div>
-            <h3>title</h3>
-            <img alt=''></img>
-          </div>
-          <div>
-            <h3>title</h3>
-            <img alt=''></img>
-
-          </div>
-          </Carousel>      
-        </div>
+        <Carousel showThumbs={false} infiniteLoop={true}>
+        <div style={{ height: "200px", color: "#fff" }}>this is slide 1</div>
+        <div style={{ height: "200px", color: "#fff" }}>this is slide 2</div>
+        <div style={{ height: "200px", color: "#fff" }}>this is slide 3</div>
+      </Carousel>     
+    </div>
     )
   }
 }
