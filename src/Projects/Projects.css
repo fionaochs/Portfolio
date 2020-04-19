@@ -18,6 +18,8 @@ h1 {
 }
 .projects {
   padding: 40px;
+  display: flex;
+  flex-direction: row;
 }
 .carousel-root {
   width: 90vw;

@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import { Link } from 'react-scroll';
 import styles from './Home.css';
+import tree from '../Assets/treebanner.png'
 
 export default class Home extends Component {
   render() {
     return (
       <div>
+        <img id="tree" src={tree} alt="tree"/>
         <div className="contactDiv">
           <Link className="contactbutton" activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}>Contact</Link>
         </div>

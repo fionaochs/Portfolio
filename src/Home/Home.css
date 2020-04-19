@@ -18,7 +18,11 @@ body {
   /* background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651)); */
   font-family: 'Vollkorn', serif;
 }
-
+#tree {
+  width: 80vw;
+  height: 40vh;
+  opacity: .3;
+}
 
 #title {
   background: white;
