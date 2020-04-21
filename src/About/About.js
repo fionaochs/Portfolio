@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './About.css';
+import './About.css';
 import river from '../Assets/river.jpg';
 import hobbitHole from '../Assets/hobbitholecrop.png';
 import mtCook from '../Assets/mtcook.jpg';
@@ -16,10 +16,10 @@ export default class About extends Component {
           <p id="text">Full Stack Software Developer, striving to produce clean, testable and maintainable code. I love the data manipulation and logic driven side of back-end, while also interested, in converting that data to concise data visualizations and user interfaces. <br/> <br/>
           When I am not coding, and not stuck at home, I love to travel, be out  hiking, do crossfit, bake healthy treats, brew kombucha, play board games and read.
           </p> 
-          <img className="photos" id="cook" src={mtCook} alt='mtCook'></img>
+          {/* <img className="photos" id="cook" src={mtCook} alt='mtCook'></img> */}
         </div>
       <div className='bottom'>
-        <img className="photos" id="river" src={river} alt='river'></img>
+        {/* <img className="photos" id="river" src={river} alt='river'></img> */}
       </div>
     </div>
     )

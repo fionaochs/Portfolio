@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { projects } from '../Data/Data'
-// import './Projects.css'
+import './Projects.css'
 
 export default class Project extends Component {
   render() {
@@ -18,7 +18,7 @@ export default class Project extends Component {
       <section className="projectItems">
           <img src={this.props.img} alt={title}></img>
         <div className="textSection">
-          <h1>{this.props.title}</h1>
+          <h1 id="title">{this.props.title}</h1>
           <h3 id="description">{this.props.description}</h3>
           <h3>Tech Stack:</h3>
           <p>{splitTechStack}</p>

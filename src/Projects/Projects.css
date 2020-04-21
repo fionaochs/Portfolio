@@ -1,10 +1,15 @@
 #projectsDiv {
-  background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651));
+  /* background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651)); */
   width: 100vw;
   padding: .1em 0 .1em 0;
+  margin-top: 5vh;
+  color: #0f3568;
+  margin-left: 5vw;
+
 }
-h1 {
-  color: white;
+#title {
+  color: #0f3568;
+
 }
 .projectItems {
   display: flex;
@@ -21,30 +26,20 @@ h1 {
   display: flex;
   flex-direction: row;
 }
-.carousel-root {
-  width: 90vw;
-  height: 80vh;
-}
-.carousel .control-dots {
-  flex-direction: row;
-  justify-content: center;
-}
-.slick-slide img {
-  margin: auto;
-}
+
 a {
-  color: white;
+  color: #0f3568;
   text-decoration: none;
 }
 a:hover {
-  color: rgb(44, 134, 125);
-  text-decoration: none;
+  color: rgb(22, 129, 115);
+  text-decoration: underline;
 }
 p {
   padding: .5em .5em .5em .5em;
   display: flex;
   flex-direction: row;
-  color: aliceblue
+  color: #0f3568;
 }
 @media only screen and (max-width: 768px) {
   li {

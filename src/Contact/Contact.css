@@ -1,7 +1,13 @@
 #contactDiv {
-  background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651));
+  /* background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651)); */
   width: 100vw;
   padding: .1em 0 .1em 0;
+  margin-left: 5vw;
+
+}
+#contact {
+  color: #0f3568;
+
 }
 .contactClass {
   color: aliceblue;
@@ -17,21 +23,27 @@
 }
 #icon {
   padding: .5em .5em .5em .5em;
-  color: aliceblue;
+  color: #0f3568;
   font-size: 2em;
 }
 #icon:hover {
   color: rgb(44, 134, 125);
 }
-h3 {
+#sentence {
   margin: .5em .5em .5em .5em;
   font-size: 1vw;
+}
+#river {
+  width: 90vw;
+  height: 15vw;
+  margin: .5em .5em 5em .5em;
+  border-radius: 2em;
 }
 @media only screen and (max-width: 768px) {
   #sentence {
     font-size: 3vw;
   }
-  h1 {
+  #contact {
     font-size: 4vw;
   }
   #contactDiv {
@@ -40,13 +52,16 @@ h3 {
   #icon {
     font-size: 1em;
   }
+  img.photos {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 320px) {
   #sentence {
     font-size: 3vw;
   }
-  h1 {
+  #contact {
     font-size: 2vw;
   }
   #contactDiv {
@@ -54,5 +69,8 @@ h3 {
   }
   #icon {
     font-size: 1em;
+  }
+  img.photos {
+    display: none;
   }
 }

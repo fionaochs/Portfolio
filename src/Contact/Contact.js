@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-// import './Contact.css'
+import './Contact.css'
+import river from '../Assets/river.jpg';
 
 export default class Contact extends Component {
   render() {
@@ -16,6 +17,8 @@ export default class Contact extends Component {
             <a id="icon" href="https://www.linkedin.com/in/fionaochs/" target="_brel=" rel="noopener noreferrer"><FaLinkedinIn className="social-icon" /></a>
             <a  id="icon" href="https://github.com/fionaochs" target="_brel=" rel="noopener noreferrer"><FaGithub className="social-icon" /></a>
             </div>
+          <img className="photos" id="river" src={river} alt='river'></img>
+
         </div>
       </div>
     )

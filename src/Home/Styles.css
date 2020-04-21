@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 body {
   box-sizing: border-box;
-  /* background-color: rgb(74, 145, 226); */
+  /* background: linear-gradient(to right, rgba(14, 101, 105, 0.582), rgba(40, 150, 148, 0.582)); */
   background-color: aliceblue;
-
+  font-family: 'Vollkorn', serif;
 }
 #header {
   /* background-color: rgb(74, 145, 226); */
   background: linear-gradient(to right, rgb(14, 101, 105), rgb(40, 150, 148));
-
+  position: fixed;
   height: 18vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  font-family: 'Vollkorn', serif;
+  box-shadow: 2px 2px 2px white;
 }
 img {
   height: 20vh;
@@ -24,7 +24,7 @@ img {
 .buttons {
   width: 35vw;
   margin-top: 10vh;
-  /* margin-left: 30vw; */
+  margin-left: 30vw;
 }
 .button {
     margin: .5em .5em .5em .5em;
@@ -40,6 +40,7 @@ img {
   color: #0f3568;
   border: solid #0f3568 .1vw;
   cursor: pointer;
+  /* background-color: aliceblue; */
 }
 #logo {
   position: relative;
@@ -75,6 +76,7 @@ h3 {
     flex-direction: column;
     width: 100vw; 
     height: 20vh;
+    position: fixed;
 
   } 
   #logo {
@@ -117,6 +119,8 @@ h3 {
     flex-direction: column;
     width: 100vw; 
     height: 15vh;
+    position: fixed;
+
   } 
   #logo {
     position: relative;

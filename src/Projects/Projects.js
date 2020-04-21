@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ProjectItems from './Project'
 import { projects } from '../Data/Data'
-// import './Projects.css'
+import './Projects.css'
 
 export default class Projects extends Component {
   state = {
@@ -39,7 +39,7 @@ export default class Projects extends Component {
     return (
       <div id="projects">
         <div id="projectsDiv">
-          <h1>Projects</h1>
+          <h1 id="title">Projects</h1>
         </div>
         <section className="projects">
           <button onClick={this.handleBack}>Prev</button>

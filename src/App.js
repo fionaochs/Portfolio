@@ -12,10 +12,10 @@ function App() {
     <div className="container">
         <Home/>
       <section>
-        {/* <About/> */}
-        {/* <Projects/> */}
-        {/* <TechStack/> */}
-        {/* <Contact/> */}
+        <About/>
+        <Projects/>
+        <TechStack/>
+        <Contact/>
       </section>
     </div>
   );

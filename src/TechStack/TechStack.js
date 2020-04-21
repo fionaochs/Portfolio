@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import { toolArr, backEnd, frontEnd, databases, langArr } from '../Data/Data';
 import List from '../List';
-// import './TechStack.css'
+import './TechStack.css'
 
 export default class TechStack extends Component {
   render() {
     return (
       <div id="techstack">
         <div id="techTitle">
-          <h2>Tech Stack</h2>
+          <h2 id="stack">Tech Stack</h2>
         </div>
         <div className="techDiv">
           <List className="list" arr={langArr} title={'Languages'} />

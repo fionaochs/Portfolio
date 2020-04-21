@@ -1,7 +1,8 @@
 #techTitle {
-  background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651));
+  /* background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651)); */
   width: 100vw;
   padding: .1em 0 .1em 0;
+  margin-left: 5vw;
 }
 .techDiv {
   display: flex;
@@ -18,16 +19,17 @@ li {
   font-family: 'Vollkorn', sans-serif;
   list-style: none;
   font-size: 1.5em;
+  color: rgb(15, 88, 78);
 }
-h2 {
+#stack {
   font-family: 'Vollkorn', sans-serif;
-  color: white;
+  color: #0f3568;
   font-size: 2.5em;
 
 }
 h3 {
   font-family: 'Vollkorn', sans-serif;
-  color: white;
+  color: #0f3568;
   font-size: 2em;
   display: flex;
   flex-direction: column;
@@ -38,7 +40,7 @@ h3 {
   li {
     font-size: 3vw;
   }
-  h2 {
+  #stack {
     font-size: 1rem;
   }
   h3 {
@@ -57,7 +59,7 @@ h3 {
   li {
     font-size: 3vw;
   }
-  h2 {
+  #stack {
     font-size: 5vw;
   }
   h3 {
