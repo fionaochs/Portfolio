@@ -16,7 +16,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  box-shadow: 2px 2px 2px white;
+  /* box-shadow: 2px 2px 2px white; */
 }
 img {
   height: 20vh;
@@ -28,6 +28,7 @@ img {
   margin-top: 10vh;
   margin-left: 30vw;
 }
+
 .button {
     margin: .5em .5em .5em .5em;
     font-size: 1.5vw;
@@ -40,9 +41,11 @@ img {
 }
 .button:hover {
   color: #0f3568;
-  /* border: solid #0f3568 .1vw; */
   cursor: pointer;
-  /* background-color: aliceblue; */
+}
+.button:focus {
+  color: #0f3568;
+  text-decoration: underline;
 }
 #logo {
   position: relative;

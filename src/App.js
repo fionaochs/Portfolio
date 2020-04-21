@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Home/Home';
@@ -15,10 +14,9 @@ function App() {
         <Home/>
         <Switch>
             <Route exact path='/' component={About} />
-            <Route path='/portfolio' component={Projects} />
             <Route path='/contact' component={Contact} />
+            <Route path='/projects' component={Projects} />
             <Route path='/techstack' component={TechStack} />
-            <Route path='/contact' component={Contact} />
           </Switch>
     </Router>
     </div>

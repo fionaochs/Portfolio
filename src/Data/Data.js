@@ -1,6 +1,6 @@
 export const langArr = ['JavaScript', 'HTML', 'CSS'];
 
-export const toolArr = ['Heroku', 'Netlify', 'Jest', 'QUnit', 'Github', 'Twilio'];
+export const toolArr = ['Heroku', 'Netlify', 'Jest', 'QUnit', 'Github', 'Twilio', 'Jira'];
 
 export const backEnd = ['Node.js', 'Express'];
 

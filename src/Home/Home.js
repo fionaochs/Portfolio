@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import './Styles.css';
 import tree from '../Assets/logo.png'
 
@@ -16,10 +17,12 @@ export default class Home extends Component {
             <img src={tree} alt="tree"/>
         </div>
         <div className="buttons">
-          <Link className="button" activeClass="active" to="aboutDiv" spy={true} smooth={true} offset={0} duration={500}>About Me</Link>
-          <Link className="button" activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={500}>Contact</Link>
-          <Link className="button" activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration={500}>Projects</Link>
-          <Link className="button" activeClass="active" to="techstack" spy={true} smooth={true} offset={0} duration={500}>Tech Stack</Link>
+        <nav>
+            <Link className="button" to="/">About Me</Link>
+            <Link className="button" to="/contact">Contact</Link>
+            <Link className="button" to="/projects">Projects</Link>
+            <Link className="button" to="/techstack">Tech Stack</Link>
+        </nav>
       </div>
     </div>
     )
