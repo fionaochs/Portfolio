@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ProjectItems from './Project'
 import { projects } from '../Data/Data'
-import './Projects.css'
+// import './Projects.css'
 
 export default class Projects extends Component {
   state = {

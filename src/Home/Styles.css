@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+#header {
+  background-color: rgb(74, 145, 226);
+  height: 18vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  font-family: 'Vollkorn', serif;
+}
+img {
+  height: 20vh;
+  width: 20vw;
+  margin-top: 1em;  
+}
+.buttons {
+  width: 50vw;
+  margin-top: 10vh;
+  margin-left: 45vw;
+}
+.button {
+    margin: .5em .5em .5em .5em;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: whitesmoke; 
+    border: solid whitesmoke .1vw;
+    border-radius: .2em;
+    text-align: center;
+    padding: .2vw; 
+}
+.button:hover {
+  color: #0f3568;
+  border: solid #0f3568 .1vw;
+  cursor: pointer;
+}
+#logo {
+  position: relative;
+  left: 1vw;
+}
+.titleDiv {
+  position: absolute;
+  top: 1.5vh;
+  left: 8vw;
+}
+h1 {
+  font-size: 2.5em;
+  color: white;
+  width: 40vw;
+}
+h2 {
+  font-size: 1.5em;
+  color: #0f3568;
+  margin-top: -5vh;
+  margin-left: 1vw;
+}
+h3 {
+  font-size: 1.5em;
+  color: #0f3568;
+  margin-top: -4vh;
+  margin-left: 1vw;
+
+}
+/* @media screen and (max-width: 768px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw; 
+  } 
+  #logo {
+  margin-left: -60vw; 
+  }
+  h1 {
+    margin-left: -15vw;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    margin-top: -.2vh;
+  }
+  h2 {
+    margin-left: -12vw;
+    font-size: 1em;
+    margin-top: -7vh;
+  }
+  h3 {
+    margin-left: -12vw;
+    font-size: 1em;
+    margin-top: -5vh;
+  }
+  img {
+    margin-top: -1vh;
+    margin-left: -15vw;
+    height: 20vh;
+    width: 20vw;
+  }
+  .buttons {
+    margin-top: -50vh;
+    margin-right: -60vw;
+  }
+  .button {
+    font-size: .5em;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw; 
+  } 
+  h1 {
+      /* margin-left: 1vw; */
+      /* font-size: 1.5em;
+      margin-bottom: 1.5em;
+    }
+    #titleDiv {
+      margin-left: 5vw;
+    }
+    h2 {
+      font-size: 1.2em;
+      /* margin-left: 1vw; */
+    /* } */
+    /* h3 {
+      font-size: 1.2em;
+      margin-top: -3vh;
+      /* margin-left: .5em; */
+    /* } */
+    /* img { */
+      /* height: 15vh; */
+      /* width: 35vw; */
+    /* } */
+    /* .buttons {
+      margin-top: -5vh;
+      margin-right: -50vw;
+      /* margin-top: 1em; */
+    /* } */
+    /* .button { */
+      /* font-size: .5em; */ 
+    /* }  */
+/* }  */

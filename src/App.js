@@ -9,13 +9,13 @@ import Projects from './Projects/Projects'
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
         <Home/>
       <section>
-        <Contact/>
-        <About/>
-        <Projects/>
-        <TechStack/>
+        {/* <About/> */}
+        {/* <Projects/> */}
+        {/* <TechStack/> */}
+        {/* <Contact/> */}
       </section>
     </div>
   );

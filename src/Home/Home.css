@@ -8,6 +8,10 @@
   height: 98vh;
   box-shadow: 5px 5px 1px 1px lightgray;
 }
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
 body {
   height: 100vh;
   margin: 0;
@@ -18,13 +22,25 @@ body {
   /* background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651)); */
   font-family: 'Vollkorn', serif;
 }
-#tree {
-  width: 80vw;
-  height: 40vh;
-  opacity: .3;
+img#tree {
+  width: 40vw;
+  height: 5vh;
+  /* opacity: .3; */
+  margin: .5em .5em .5em .5em;
+  /* background: linear-gradient(to bottom, rgba(0,0,0,1)), to(rgba(0,0,0,0)); */
 }
-
-#title {
+#tree {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.titleDiv {
+  position: absolute;
+  left: 25vw;
+  display: flex;
+  flex-direction: column;
+}
+/* #title {
   background: white;
   color: rgb(6, 90, 134);
   padding: .5rem;
@@ -49,6 +65,11 @@ body {
   border-radius: 2em;
   margin: .5em 5em .5em 5em;
   background: linear-gradient(to right, rgb(11, 70, 62), rgb(40, 150, 148));
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .aboutbutton {
   background: white;
@@ -127,7 +148,7 @@ body {
   background-color: rgba(44, 134, 125, 0.438);
   color: white;
   cursor: pointer;
-}
+} */
 
 h1 {
   font-family: 'Vollkorn', serif;
@@ -147,11 +168,11 @@ span {
     align-items: center;
   }
 
-  img {
+  /* img {
     width: 18vw;
     height: auto;
     margin: 1em auto 2em auto;
-  }
+  } */
 
   @media only screen and (max-width: 768px) {
     a {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { projects } from '../Data/Data'
-import './Projects.css'
+// import './Projects.css'
 
 export default class Project extends Component {
   render() {

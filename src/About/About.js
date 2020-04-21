@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './About.css';
+// import './About.css';
 import river from '../Assets/river.jpg';
 import hobbitHole from '../Assets/hobbitholecrop.png';
 import mtCook from '../Assets/mtcook.jpg';
