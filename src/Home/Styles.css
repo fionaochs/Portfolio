@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 body {
   box-sizing: border-box;
-  /* background: linear-gradient(to right, rgba(14, 101, 105, 0.582), rgba(40, 150, 148, 0.582)); */
-  background-color: aliceblue;
+  /* background: linear-gradient(to right, rgba(14, 101, 105, 0.336), rgba(40, 150, 148, 0.336)); */
+  background: linear-gradient(to right, rgb(14, 101, 105), rgb(40, 150, 148));
+
+  /* background-color: aliceblue; */
   font-family: 'Vollkorn', serif;
 }
 #header {
@@ -31,14 +33,14 @@ img {
     font-size: 1.5vw;
     font-weight: bolder;
     color: whitesmoke; 
-    border: solid whitesmoke .1vw;
+    /* border: solid whitesmoke .1vw; */
     border-radius: .2em;
     text-align: center;
     padding: .2vw; 
 }
 .button:hover {
   color: #0f3568;
-  border: solid #0f3568 .1vw;
+  /* border: solid #0f3568 .1vw; */
   cursor: pointer;
   /* background-color: aliceblue; */
 }

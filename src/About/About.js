@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './About.css';
 import river from '../Assets/river.jpg';
-import hobbitHole from '../Assets/hobbitholecrop.png';
+import hobbitHole from '../Assets/hobbitholecrop2.png';
 import mtCook from '../Assets/mtcook.jpg';
 
 export default class About extends Component {
