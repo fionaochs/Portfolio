@@ -4,7 +4,7 @@ body {
   /* background: linear-gradient(to right, rgba(14, 101, 105, 0.336), rgba(40, 150, 148, 0.336)); */
   /* background: linear-gradient(to right, rgb(14, 101, 105), rgb(40, 150, 148)); */
   background: rgb(40, 150, 148);
-  /* background-color: aliceblue; */
+  /* background: #26a69a; */
   font-family: 'Vollkorn', serif;
 }
 #header {
@@ -33,7 +33,7 @@ img {
     margin: .5em .5em .5em .5em;
     font-size: 1.5vw;
     font-weight: bolder;
-    color: whitesmoke; 
+    color: aliceblue; 
     /* border: solid whitesmoke .1vw; */
     border-radius: .2em;
     text-align: center;

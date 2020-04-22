@@ -1,8 +1,8 @@
 .techDiv {
   display: flex;
   flex-direction: row;
-  margin-top: 25vh;
-  margin-left: 20vw;
+  margin-top: 35vh;
+  margin-left: 22vw;
 }
 ul{
   display: flex;

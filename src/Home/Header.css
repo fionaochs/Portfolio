@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
-.Header {
+.header {
   background-color: #5397ad;
   position: fixed;
   display: flex;
@@ -19,20 +19,20 @@ body {
   place-items: center;
   width: 100vw;
   background: rgba(46, 128, 127, 0.575);
-  /* background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651)); */
   font-family: 'Vollkorn', serif;
 }
-img#tree {
+/* img#tree {
   width: 40vw;
   height: 5vh;
-  /* opacity: .3; */
   margin: .5em .5em .5em .5em;
-  /* background: linear-gradient(to bottom, rgba(0,0,0,1)), to(rgba(0,0,0,0)); */
-}
+} */
 #tree {
   display: flex;
   flex-direction: row;
   position: relative;
+  width: 40vw;
+  height: 5vh;
+  margin: .5em .5em .5em .5em;
 }
 .titleDiv {
   position: absolute;
@@ -167,14 +167,68 @@ span {
     flex-direction: column;
     align-items: center;
   }
-
+  @media screen and (max-width: 480px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+    }
+  
+    nav {
+      margin-top: 1em;
+    }
+  }
+  
+  @media screen and (min-width: 480px) {
+      h1 {
+        margin-left: 8%;
+        font-size: 3em;
+      }
+    }
+  
+  
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+  
+    nav {
+      display: flex;
+      margin-right: 10%;
+    }
+  
+    a {
+      color: black;
+      text-decoration: none;
+      list-style: none;
+      font-family: Source Sans Pro;
+      font-weight: 300;
+      margin-left: 2em;
+      padding: 0.75em;
+    }
+  
+    a:hover {
+      color: white;
+      background-color: black;
+      padding: 0.75em;
+      border-radius: 15px 50px 30px 8px;
+    }
+  
+    h1 {
+      font-family: Lora;
+      font-size: 2.5em;
+      line-break: auto;
+    }
+  }
   /* img {
     width: 18vw;
     height: auto;
     margin: 1em auto 2em auto;
   } */
 
-  @media only screen and (max-width: 768px) {
+  /* @media only screen and (max-width: 768px) {
     a {
       font-size: 4vw;
     }
@@ -183,7 +237,6 @@ span {
     }
     body {
       width: 200vw;
-      /* background: linear-gradient(to right, rgba(11, 70, 62, 0.644), rgba(44, 165, 163, 0.651)); */
     }
   }
   
@@ -194,4 +247,5 @@ span {
     h1 {
       font-size: 5vw;
     }
-  }
+  } */
+  
