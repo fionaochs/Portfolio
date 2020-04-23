@@ -7,7 +7,7 @@ import hobbitHole from '../Assets/hobbitholecrop2.png';
 export default class Contact extends Component {
   render() {
     return (
-      <div className="contactClass">
+      <div className="contact">
         <img className="photos" id="hobbit" src={hobbitHole} alt='hobbit'></img>
         <div className='links'>
           <h3 id="sentence1">I look forward to hearing from you.</h3>
