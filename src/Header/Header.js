@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 // import { Link } from 'react-scroll';
 import { Link } from 'react-router-dom';
-import './Styles.css';
+import './Header.css';
 import tree from '../Assets/logo.png'
 
 export default class Home extends Component {
