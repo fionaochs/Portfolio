@@ -33,6 +33,7 @@ img {
     text-align: center;
     padding: .2vw; 
 }
+
 .button:hover, .button:focus {
   color: #0f3568;
   cursor: pointer;
