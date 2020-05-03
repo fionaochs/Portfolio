@@ -4,7 +4,7 @@ export const useStyles = makeStyles((theme) => ({
   imageContainer: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'center',
     alignItems: 'center'
   },
   image: {
@@ -15,12 +15,12 @@ export const useStyles = makeStyles((theme) => ({
   },
     container: {
       // backgroundColor: theme.palette.common.teal.main, //background
-      backgroundColor: 'linear-gradient(to right, rgb(0,109,74), #2CA5A3)', //background
+      // backgroundColor: 'linear-gradient(to right, rgb(0,109,74), #2CA5A3)', //background
     },
     root: {
         // backgroundColor: theme.palette.common.teal.main,
-        backgroundColor: 'linear-gradient(to right, rgb(0,109,74), #2CA5A3)', //background
-        paddingTop: '1rem'
+        // backgroundColor: 'linear-gradient(to right, rgb(0,109,74), #2CA5A3)', //background
+        // paddingTop: '1rem'
       },
       email: {
         color: theme.palette.common.blue.main,
@@ -52,7 +52,7 @@ export const useStyles = makeStyles((theme) => ({
       flexDirection: 'column',
       alignItems: 'center',
       marginTop: '5rem',
-      padding: '1rem',
+      // padding: '1rem',
     },
     icon: {
       fontSize: '1.5rem',
