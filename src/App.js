@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Container, CssBaseline } from '@material-ui/core';
+
+import { useStyles } from './App.styles';
+import { Links } from './Pages/Links/Links'
+import { Header } from './Pages/Header/Header';
+import { About } from './Pages/About/About';
+import { Contact } from './Pages/Contact/Contact';
+import { Techstack } from './Pages/TechStack/TechStack';
+import { Projects } from './Pages/Projects/Projects';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const styles = useStyles();
+    return (
+            <BrowserRouter>
+                <Container maxWidth="xl" className={styles.root}>
+                    <CssBaseline />
+                        <Header />
+                    <Links />
+                    <Switch>
+                        <Route exact path="/" component={About} />
+                        <Route path="/techstack" component={Techstack} />
+                        <Route path="/contact" component={Contact} />
+                        <Route path="/projects" component={Projects} />
+                    </Switch>
+                </Container>
+            </BrowserRouter>
+    );
 }
 
 export default App;
