@@ -14,12 +14,12 @@ export const useStyles = makeStyles((theme) => ({
     // marginLeft: '5vw'
   },
     container: {
-      // backgroundColor: theme.palette.common.teal.main, //background
-      backgroundColor: 'linear-gradient(to right, rgb(0,109,74), #2CA5A3)', //background
+      // backgroundColor: theme.palette.secondary.main, //background
+      backgroundColor: '#fff', //background
     },
     root: {
-        // backgroundColor: theme.palette.common.teal.main,
-        backgroundColor: 'linear-gradient(to right, rgb(0,109,74), #2CA5A3)', //background
+      backgroundColor: theme.palette.secondary.main, //background
+        // backgroundColor: 'linear-gradient(to right, rgb(0,109,74), #2CA5A3)', //background
         paddingTop: '1rem'
       },
       email: {
@@ -35,13 +35,14 @@ export const useStyles = makeStyles((theme) => ({
       link: {
         padding: '0 .5rem 0 .5rem',
         fontSize: '1.5rem',
-        color: theme.palette.secondary.main, //white
+        textDecoration: 'underline',
+        color: theme.palette.common.green.main, //white
         '&:hover': {
           color: theme.palette.common.blue.main,
         }
       },
       title: {
-        color: theme.palette.secondary.main, //white
+        color: theme.palette.common.red.main,
         fontSize: "1.5rem",
         padding: '.5rem',
         fontWeight: '550'
@@ -57,7 +58,7 @@ export const useStyles = makeStyles((theme) => ({
     icon: {
       fontSize: '1.5rem',
       padding: '.5rem',
-      color: theme.palette.secondary.main, //white
+      color: theme.palette.common.green.main, //white
       '&:hover': {
         color: theme.palette.common.blue.main,
       },

@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core';
 export const useStyles = makeStyles((theme) => ({
   title: {
     fontSize: '1.6rem',
-    color: theme.palette.secondary.main, //white
+    color: theme.palette.common.green.main, //white
     paddingBottom: '.5rem',
     fontWeight: '550'
   },
@@ -26,7 +26,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   more: {
     fontSize: '1.8rem',
-    color: theme.palette.secondary.main, //white
+    color: theme.palette.common.green.main, //green
     paddingBottom: '.5rem',
     paddingTop: '1rem',
     fontWeight: '550'

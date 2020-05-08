@@ -10,12 +10,18 @@ export const useStyles = makeStyles((theme) => ({
     maxWidth: '100%',
     width: '20rem',
     height: '12rem',
-    marginTop: '-2rem'
+    marginTop: '-2rem',
   },
     container: {
     },
     root: {
         paddingTop: '1rem',
+        background: 'linear-gradient(to right, rgb(20,146,124), rgb(44, 165, 163))',
+        // background: '#4ab19a',
+        // maxWidth: '100%',
+        width: '100vw',
+        height: '11rem'
+
         // position: 'fixed',
         // paddingBottom: '5rem',
       },

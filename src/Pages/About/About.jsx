@@ -1,19 +1,33 @@
 import React from 'react';
-import { Grid, Typography } from '@material-ui/core';
+import { Grid, Typography, Link } from '@material-ui/core';
 import { useStyles } from './About.styles';
-// import river from '../../Assets/river.jpg'
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import hobbit from '../../Assets/hobbitholecrop2.png'
+import resume from '../../Assets/resume.pdf'
 
 export const About = () => {
     const classes = useStyles();
     return (
-        <Grid container>
-            <Grid item xs={12} className={classes.root}>
-                <Typography variant="h3" className={classes.h3}>Hi, I'm <span>Fiona Ochs</span>, a Full Stack Software Developer, with a background in Neurobiology and Sports Medicine. I am eager to figure out how things work and the processes involved, and I have applied this curiousty towards my love of coding. <br/><br/>
-                I strive to produce clean, testable and maintainable code. I am interested in the data manipulation and logic driven side of back-end, while also wanting to convert that information to concise data visualizations and user interfaces.<br/><br/>
-                When I am not coding, and not stuck at home, I love to travel, be out hiking, do Crossfit, bake healthy treats, play board games and read.</Typography>
+        <Grid container className={classes.container}>
+            <Grid item xs={12} className={classes.imageContainer} >
+                <img alt="logo" src={hobbit} className={classes.image}/>
+
+                <Grid item xs={12} className={classes.text}>
+                    <Typography variant="h1" className={classes.title}>I look forward to hearing from you.</Typography>
+                    <Typography variant="h2" className={classes.email}>fionalochs@gmail.com</Typography>
+                    <Typography variant="h2" className={classes.resume}>Find my resume<Link className={classes.link} href={resume} target="_blank">here</Link>
+                    </Typography>
+
+                    <Grid item xs={12} className={classes.icons}>
+                        <a className={classes.icon} href="https://www.linkedin.com/in/fionaochs/" target="_brel=" rel="noopener noreferrer"><FaLinkedinIn className="social-icon" /></a>
+                        <a  className={classes.icon} href="https://github.com/fionaochs" target="_brel=" rel="noopener noreferrer"><FaGithub className="social-icon" /></a>
+                    </Grid>
+                </Grid>
             </Grid>
-            <Grid item xs={12} className={classes.imageBox}>
-            {/* <img alt="logo" src={river} className={classes.image}/> */}
+            <Grid item xs={12} className={classes.root}>
+                <Typography variant="h3" className={classes.h3}>Hi, I'm <span>Fiona Ochs</span>, a Full Stack Software Developer, with a background in Neurobiology. I enjoy figuring out how things work and the processes involved, and I apply this curiousty towards my love of coding. <br/><br/>
+                Striving to produce clean, testable and maintainable code. Interested in the data manipulation and logic driven side of back-end, while also a lover of React and wanting to convert that information to concise data visualizations and user interfaces.<br/><br/>
+                When I am not coding, and not stuck at home, I love to travel, be out hiking, do Crossfit, bake healthy treats, play board games and read.</Typography>
             </Grid>
         </Grid>
     );
