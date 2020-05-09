@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
 import { useStyles } from './Header.styles';
-import logo from '../../Assets/logo.png'
+import logo from '../../Assets/logo4.png'
 
 export const Header = () => {
     const classes = useStyles();
