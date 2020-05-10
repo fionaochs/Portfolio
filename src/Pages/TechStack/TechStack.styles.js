@@ -1,6 +1,13 @@
 import { makeStyles } from '@material-ui/core';
 
 export const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: '12rem'
+  },
   title: {
     fontSize: '1.6rem',
     color: theme.palette.common.green.main, //white
@@ -11,14 +18,10 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: '1.2rem',
     color: theme.palette.common.blue.main,
   },
-  root: {
-    display: 'flex',
-    justifyContent: 'center'
-  },
   techstack: {
     display: 'flex',
     flexDirection: 'row',
-    marginTop: '1rem',
+    margin: '3rem 0rem 3rem 0rem',
     justifyContent: 'center',
     maxWidth: '100%',
     width: '60vw',

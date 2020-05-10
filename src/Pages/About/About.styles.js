@@ -1,12 +1,23 @@
 import { makeStyles } from '@material-ui/core';
 
 export const useStyles = makeStyles((theme) => ({
+    container: {
+        //   backgroundColor: theme.palette.secondary.main, //background
+          backgroundColor: '#fff', //background
+          // backgroundColor: 'linear-gradient(to right, rgb(0,109,74), #2CA5A3)', //background
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            flexWrap: 'nowrap',
+            marginTop: '12rem'
+        },
     root: {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
-        // paddingBottom: '1rem',
+        paddingBottom: '2rem',
+        // marginTop: '15rem'
     },
     h3: {
         fontSize: '1.5rem',
@@ -38,15 +49,6 @@ export const useStyles = makeStyles((theme) => ({
         height: '20rem',
         marginBottom: '-5rem',
         paddingTop: '1rem'
-        },
-    container: {
-        //   backgroundColor: theme.palette.secondary.main, //background
-          backgroundColor: '#fff', //background
-          // backgroundColor: 'linear-gradient(to right, rgb(0,109,74), #2CA5A3)', //background
-            display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'center',
-            flexWrap: 'nowrap'
         },
         email: {
             color: theme.palette.common.blue.main,

@@ -20,6 +20,7 @@ export const theme = createMuiTheme({
             },
             green: {
                 main: 'rgb(20,146,124)',
+                // #0b7d82 green from tree gradient
             }
         },
         primary: {

@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Grid, Link } from '@material-ui/core';
 import { useStyles } from './Links.styles';
 
 export const Links = () => {
     const classes = useStyles();
+    const [color, setColor] = useState('#FFF');
+
+    const changeColor = (color) => {
+        setColor(color)
+    };
     return (
         <Grid container className={classes.root}>
             <Grid item xs={12} className={classes.links}>

@@ -3,35 +3,36 @@ import { makeStyles } from '@material-ui/core';
 export const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
-        flexDirection: 'column',
+        flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
         padding: '1rem',
-        // background: 'white'
+        marginTop: '11rem',
+    },
+    button: {
+      color: theme.palette.common.blue.main,
+      display: 'flex',
+      alignItems: 'center'
+
+    },
+    projectsContainer: {
+      display: 'flex',
+      alignItems: 'center',
+      flexDirection: 'row'
     },
     project: {
       display: 'flex',
-      // maxWidth: '100%',
-      // width: '60%',
+      width: '60%',
       flexDirection: 'column',
       justifyContent: 'center',
       margin: '1rem 1rem 2rem 1rem',
       borderBottom: '1px solid #0b7d82',
       paddingBottom: '2rem'
-
     },
     h3: {
         fontSize: '1.4rem',
         color: theme.palette.common.blue.main,
-    },
-    image: {
-        maxWidth: '100%',
-        width: '20rem',
-        height: '20rem',
-        justifyContent: 'center',
-        borderRadius: '1rem',
-        boxShadow: '2px 2px 2px 2px #4e8f1ef'
     },
     shade: {
         maxWidth: '100%',
@@ -50,21 +51,19 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         borderRadius: '1rem',
         boxShadow: '2px 2px 2px 2px #4e8f1ef'
-
     },
     groupies: {
         maxWidth: '100%',
-        width: '8rem',
-        height: '8rem',
+        width: '15rem',
+        height: '15rem',
         justifyContent: 'center',
         borderRadius: '1rem',
         boxShadow: '2px 2px 2px 2px #4e8f1ef'
-
     },
     gabbi: {
         maxWidth: '100%',
-        width: '8rem',
-        height: '8rem',
+        width: '15rem',
+        height: '15rem',
         justifyContent: 'center',
         borderRadius: '1rem',
         boxShadow: '2px 2px 2px 2px #4e8f1ef'

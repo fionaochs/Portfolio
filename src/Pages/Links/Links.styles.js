@@ -9,14 +9,18 @@ export const useStyles = makeStyles((theme) => ({
         flexDirection: "row",
         justifyContent: 'flex-end',
         color: theme.palette.primary.main,
-        marginTop: '-1.5rem',
+        marginTop: '-4rem',
+        marginRight: '4.5rem',
+        // position: 'fixed',
+
         
       },
       link: {
-        padding: '0 .3rem 0 .3rem',
+        padding: '0 .4rem 0 .4rem',
         fontWeight: '550',
         fontSize: '1.2rem',
-        color: theme.palette.secondary.main, //white
+        // color: theme.palette.secondary.main, //white
+        color: theme.palette.common.green.main, //green
         '&:hover': {
           color: theme.palette.common.blue.main,
           // transform: 'scale(1:1.5)'

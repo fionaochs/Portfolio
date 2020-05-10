@@ -5,8 +5,7 @@ import shade from '../../Assets/shadespeare.png'
 import groupies from '../../Assets/groupies.png'
 import alchimia from '../../Assets/alchimia1.png'
 import gabbi from '../../Assets/gabbi.png'
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Carousel from './Carousel';
+import { PageTitle } from '../PageTitle/PageTitle';
 
 export const Projects = () => {
     const classes = useStyles();
@@ -22,9 +21,10 @@ export const Projects = () => {
     const groupiesLS = 'https://fierce-taiga-25449.herokuapp.com/'
     const groupiesGH = 'https://github.com/fionaochs/groupies-front-end'
 
+    const title = 'Work'
     return (
         <Grid container>
-            {/* <Carousel /> */}
+            <PageTitle title={title} />
             <Grid item xs={12} className={classes.root}>
               <Grid item xs={12} className={classes.imageBox}>
                   <img alt="project" src={gabbi} className={classes.gabbi}/>
@@ -32,7 +32,7 @@ export const Projects = () => {
               <Grid xs={12} className={classes.project}>
                 <Typography variant="h3" className={classes.h1}>Gabbi</Typography>
                 <Typography variant="h3" className={classes.tech}>Node.JS, React, MongoDB</Typography>
-                <Typography variant="h3" className={classes.h3}>Gabbi is the world’s first digital platform for women that puts women in charge of their own bodies. Connecting like-minded women who have similar experiences, to learn, share, and support one another as they take control of their health. I work on the back end, leading TDD for the routes and models.</Typography>
+                <Typography variant="h3" className={classes.h3}>Gabbi is the world’s first digital platform for women that puts women in charge of their own bodies. Connecting like-minded women who have similar experiences, to learn, share, and support one another as they take control of their health. I work on the back end with TDD for the routes and models.</Typography>
                     <Grid item xs={12} className={classes.links}>
                       <Link className={classes.link} href={gabbiLS} target="_blank">Live site</Link>
                     </Grid>

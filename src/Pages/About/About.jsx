@@ -4,11 +4,15 @@ import { useStyles } from './About.styles';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import hobbit from '../../Assets/hobbitholecrop2.png'
 import resume from '../../Assets/resume.pdf'
+import { PageTitle } from '../PageTitle/PageTitle';
 
 export const About = () => {
     const classes = useStyles();
+    const title = 'About Me'
     return (
         <Grid container className={classes.container}>
+            <PageTitle title={title} />
+
             <Grid item xs={12} className={classes.imageContainer} >
                 <img alt="logo" src={hobbit} className={classes.image}/>
 
