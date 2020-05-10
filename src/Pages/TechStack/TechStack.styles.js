@@ -67,6 +67,11 @@ export const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     padding: '1rem'
-
+  },
+  learning: {
+    alignItems: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    padding: '1rem'
   }
 }));
