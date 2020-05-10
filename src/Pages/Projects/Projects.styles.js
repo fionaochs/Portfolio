@@ -7,7 +7,7 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
-        padding: '1rem',
+        paddingBottom: '5rem',
         // background: 'white'
     },
     project: {

@@ -5,6 +5,7 @@ export const useStyles = makeStyles((theme) => ({
     background: '#4ab19ab0',
     width: '100%',
     height: '4rem',  
+    marginBottom: '2rem'
     },
     container: {
       display: 'flex',

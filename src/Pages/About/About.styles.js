@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core';
 
 export const useStyles = makeStyles((theme) => ({
-    container: {
+    root: {
         //   backgroundColor: theme.palette.secondary.main, //background
           backgroundColor: '#fff', //background
           // backgroundColor: 'linear-gradient(to right, rgb(0,109,74), #2CA5A3)', //background
@@ -9,9 +9,10 @@ export const useStyles = makeStyles((theme) => ({
             flexDirection: 'column',
             justifyContent: 'center',
             flexWrap: 'nowrap',
-            marginTop: '12rem'
+            marginTop: '12rem',
+            paddingBottom: '5rem'
         },
-    root: {
+    about: {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',

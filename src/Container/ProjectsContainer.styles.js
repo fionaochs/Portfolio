@@ -13,8 +13,9 @@ export const useStyles = makeStyles((theme) => ({
     button: {
       color: theme.palette.common.blue.main,
       display: 'flex',
-      alignItems: 'center'
-
+      alignItems: 'center',
+      backgroundColor: theme.palette.secondary.main, //green
+      boxShadow: '0px 3px 5px -1px #4e8f1ef, 0px 6px 10px 0px #4e8f1ef, 0px 1px 18px 0px #4e8f1ef'
     },
     projectsContainer: {
       display: 'flex',

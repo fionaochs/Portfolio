@@ -6,7 +6,8 @@ export const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: '12rem'
+    marginTop: '12rem',
+    paddingBottom: '5rem',
   },
   title: {
     fontSize: '1.6rem',
@@ -21,11 +22,10 @@ export const useStyles = makeStyles((theme) => ({
   techstack: {
     display: 'flex',
     flexDirection: 'row',
-    margin: '3rem 0rem 3rem 0rem',
     justifyContent: 'center',
     maxWidth: '100%',
-    width: '60vw',
-    padding: '.5rem'
+    // width: '60vw',
+    padding: '1rem'
   },
   more: {
     fontSize: '1.8rem',
@@ -38,26 +38,35 @@ export const useStyles = makeStyles((theme) => ({
   frontEnd: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    padding: '1rem'
   },
   backEnd: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    padding: '1rem'
+
   },
   languages: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    padding: '1rem'
+
   },
   tools: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    padding: '1rem'
+
   },
   databases: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    padding: '1rem'
+
   }
 }));
