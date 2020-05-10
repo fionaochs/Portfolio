@@ -24,7 +24,7 @@ function App() {
                         <Route exact path="/" component={ProjectsContainer} />
                         <Route path="/about" component={About} />
                         <Route path="/techstack" component={Techstack} />
-                        <Route path="/tree" component={Tree} />
+                        {/* <Route path="/tree" component={Tree} /> */}
                         {/* <Route path="/contact" component={Contact} /> */}
                         {/* <Route path="/" component={Projects} /> */}
                     </Switch>
