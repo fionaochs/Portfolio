@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+svg {
+  width: 1250;
+  height: 1000
+}
+.node circle {
+  fill: rgb(49, 25, 158);
+}
+.node--leaf circle {
+  fill: rgb(17, 105, 79);
+
+}
+.node text {
+  font: 1rem sans-serif;
+  font-family: 'Vollkorn', serif;
+  color: blue;
+}
+
+.node--internal circle {
+  fill: rgb(34, 57, 134);
+}
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+.node--internal text:hover, .link:hover {
+  text-shadow: 0 1px 0 rgb(15, 23, 139), 0 -1px 0 rgb(15, 23, 139), 1px 0 0 rgb(15, 23, 139), -1px 0 0 #fff;
+  color: rgb(35, 10, 177);
+}
+
+.link {
+  fill: none;
+  stroke: rgb(27, 101, 104);
+  stroke-opacity: 0.4;
+  stroke-width: 1.5px;
+}
+.link:hover {
+  fill: none;
+  stroke: rgb(35, 10, 177);
+  /* stroke-opacity: 0.4; */
+  stroke-width: 3px;
+  cursor: pointer;
+}

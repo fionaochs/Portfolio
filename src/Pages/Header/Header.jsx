@@ -1,7 +1,8 @@
 import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
 import { useStyles } from './Header.styles';
-import logo from '../../Assets/logo.png'
+import logo from '../../Assets/logo4.png'
+import { Links } from '../Links/Links';
 
 export const Header = () => {
     const classes = useStyles();
@@ -15,6 +16,7 @@ export const Header = () => {
                 <Typography variant="h2" className={classes.heading}>Full Stack <br/> Software Developer</Typography>
                 </Grid>
             </Grid>
+            <Links />
         </Grid>
     );
 };

@@ -1,0 +1,80 @@
+id,value
+Fiona Ochs,
+Fiona Ochs.Interests,
+Fiona Ochs.Interests.Hobbies,
+Fiona Ochs.Interests.Hobbies.Baking,721
+Fiona Ochs.Interests.Hobbies.Cooking,4294
+Fiona Ochs.Interests.Hobbies.Reading,9800
+Fiona Ochs.Interests.Hobbies.Traveling,1314
+Fiona Ochs.Interests.Hobbies.Crossfit,2220
+Fiona Ochs.Interests.Love,
+Fiona Ochs.Interests.Love.Documentaries,5219
+Fiona Ochs.Interests.Love.Swimming,3165
+Fiona Ochs.Interests.Love.Monty Python,3509
+Fiona Ochs.Interests.Love.Studio Ghibli Films,3598
+Fiona Ochs.Interests.Love.Mycology,3509
+Fiona Ochs.Interests.Love.Hiking,10498
+Fiona Ochs.Interests.Love.Board Games,
+Fiona Ochs.Interests.Love.Board Games.Catan,3436
+Fiona Ochs.Interests.Love.Board Games.Mysterium,3657
+Fiona Ochs.Interests.Love.Board Games.Small World,44649
+Fiona Ochs.Interests.Love.Board Games.Risk,346
+Fiona Ochs.Interests.Love.Board Games.Takenoko,6347
+Fiona Ochs.Interests.Love.Board Games.Pictionary,3473
+Fiona Ochs.Interests.Love.Board Games.Pandemic,3461
+Fiona Ochs.Interests.Love.Board Games.Carcassonne,3233
+Fiona Ochs.Interests.Data Visualization,1759
+Fiona Ochs.Interests.FastLED,2165
+Fiona Ochs.Interests.Surgical Robots,586
+Fiona Ochs.Interests.Sustainability,506
+Fiona Ochs.Interests.Renewable Energy,3331
+Fiona Ochs.Bachelor of Science,
+Fiona Ochs.Bachelor of Science.Neurobiology,1082
+Fiona Ochs.Bachelor of Science.Physiology,1336
+Fiona Ochs.Bachelor of Science.Behavior Science, 1043
+Fiona Ochs.Learning,
+Fiona Ochs.Learning.Python,1616
+Fiona Ochs.Learning.D3,1027
+Fiona Ochs.Attributes,
+Fiona Ochs.Attributes.Determined,2105
+Fiona Ochs.Attributes.Self sufficient,1316
+Fiona Ochs.Attributes.Adaptable,3151
+Fiona Ochs.Attributes.Funny,3770
+Fiona Ochs.Attributes.Collaborative,2435
+Fiona Ochs.Attributes.Organized,4839
+Fiona Ochs.Attributes.RootAttributes,1756
+Fiona Ochs.Attributes.Attributes,4268
+Fiona Ochs.Attributes.AttributesType,1821
+Fiona Ochs.Attributes.TimeScale,5833
+Fiona Ochs.Traveled To,
+Fiona Ochs.Traveled To.Peru,8258
+Fiona Ochs.Traveled To.New Zealand,10001
+Fiona Ochs.Traveled To.Germany,8217
+Fiona Ochs.Traveled To.Austria,12555
+Fiona Ochs.Traveled To.Bali,2324
+Fiona Ochs.Traveled To.China,10993
+Fiona Ochs.Traveled To.Mexico,
+Fiona Ochs.Traveled To.Australia,9354
+Fiona Ochs.TechStack,
+Fiona Ochs.TechStack.Tools,
+Fiona Ochs.TechStack.Tools.Heroku,2138
+Fiona Ochs.TechStack.Tools.Github,3824
+Fiona Ochs.TechStack.Tools.Jest,1353
+Fiona Ochs.TechStack.Tools.MaterialUI,4665
+Fiona Ochs.TechStack.Tools.Netlify,2649
+Fiona Ochs.TechStack.Tools.Twilio,2832
+Fiona Ochs.TechStack.Tools.QUnit,4896
+Fiona Ochs.TechStack.DataBases,
+Fiona Ochs.TechStack.DataBases.MongoDB,20544
+Fiona Ochs.TechStack.DataBases.Mongoose,19788
+Fiona Ochs.TechStack.DataBases.PostgreSQL,10349
+Fiona Ochs.TechStack.FrontEnd,
+Fiona Ochs.TechStack.FrontEnd.React,2313
+Fiona Ochs.TechStack.FrontEnd.Redux,1880
+Fiona Ochs.TechStack.BackEnd,
+Fiona Ochs.TechStack.BackEnd.NodeJS,20859
+Fiona Ochs.TechStack.BackEnd.Express,4614
+Fiona Ochs.TechStack.Languages,
+Fiona Ochs.TechStack.Languages.Javascript,
+Fiona Ochs.TechStack.Languages.HTML,4461
+Fiona Ochs.TechStack.Languages.CSS,6314

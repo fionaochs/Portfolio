@@ -12,15 +12,23 @@ export const theme = createMuiTheme({
             blue: {
                 main: '#0f3568' // dark blue
             },
+            red: {
+                main: '#f44336' // darkred
+            },
             white: {
                 main: '#f0f8ff',
+            },
+            green: {
+                main: 'rgb(20,146,124)',
+                // #0b7d82 green from tree gradient
             }
         },
         primary: {
             main: '#0f3568' //dark blue
         },
         secondary: {
-            main: '#F0F8FF', //white
+            // main: '#F0F8FF', //white
+            main: '#FFF', //white
         },
     },
     typography: {

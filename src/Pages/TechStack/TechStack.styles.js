@@ -1,9 +1,17 @@
 import { makeStyles } from '@material-ui/core';
 
 export const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: '12rem',
+    paddingBottom: '5rem',
+  },
   title: {
     fontSize: '1.6rem',
-    color: theme.palette.secondary.main, //white
+    color: theme.palette.common.green.main, //white
     paddingBottom: '.5rem',
     fontWeight: '550'
   },
@@ -11,22 +19,17 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: '1.2rem',
     color: theme.palette.common.blue.main,
   },
-  root: {
-    display: 'flex',
-    justifyContent: 'center'
-  },
   techstack: {
     display: 'flex',
     flexDirection: 'row',
-    marginTop: '1rem',
     justifyContent: 'center',
     maxWidth: '100%',
-    width: '60vw',
-    padding: '.5rem'
+    // width: '60vw',
+    padding: '1rem'
   },
   more: {
     fontSize: '1.8rem',
-    color: theme.palette.secondary.main, //white
+    color: theme.palette.common.green.main, //green
     paddingBottom: '.5rem',
     paddingTop: '1rem',
     fontWeight: '550'
@@ -35,26 +38,35 @@ export const useStyles = makeStyles((theme) => ({
   frontEnd: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    padding: '1rem'
   },
   backEnd: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    padding: '1rem'
+
   },
   languages: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    padding: '1rem'
+
   },
   tools: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    padding: '1rem'
+
   },
   databases: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    padding: '1rem'
+
   }
 }));

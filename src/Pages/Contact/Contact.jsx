@@ -13,14 +13,14 @@ export const Contact = () => {
                 <img alt="logo" src={hobbit} className={classes.image}/>
 
                 <Grid item xs={12} className={classes.text}>
-                  <Typography variant="h1" className={classes.title}>I look forward to hearing from you.</Typography>
-                  <Typography variant="h2" className={classes.email}>fionalochs@gmail.com</Typography>
-                  <Typography variant="h2" className={classes.resume}>Find my resume<Link className={classes.link} href={resume} target="_blank">here</Link>
-                  </Typography>
+                    <Typography variant="h1" className={classes.title}>I look forward to hearing from you.</Typography>
+                    <Typography variant="h2" className={classes.email}>fionalochs@gmail.com</Typography>
+                    <Typography variant="h2" className={classes.resume}>Find my resume<Link className={classes.link} href={resume} target="_blank">here</Link>
+                    </Typography>
 
                     <Grid item xs={12} className={classes.icons}>
-                      <a className={classes.icon} href="https://www.linkedin.com/in/fionaochs/" target="_brel=" rel="noopener noreferrer"><FaLinkedinIn className="social-icon" /></a>
-                      <a  className={classes.icon} href="https://github.com/fionaochs" target="_brel=" rel="noopener noreferrer"><FaGithub className="social-icon" /></a>
+                        <a className={classes.icon} href="https://www.linkedin.com/in/fionaochs/" target="_brel=" rel="noopener noreferrer"><FaLinkedinIn className="social-icon" /></a>
+                        <a  className={classes.icon} href="https://github.com/fionaochs" target="_brel=" rel="noopener noreferrer"><FaGithub className="social-icon" /></a>
                     </Grid>
                 </Grid>
             </Grid>
