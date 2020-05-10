@@ -2,10 +2,10 @@ import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
 import { useStyles } from './TechStack.styles';
 import { FaReact, FaJs, FaNodeJs, FaGithub, FaCss3Alt, FaHtml5} from 'react-icons/fa';
-
-import { DiMongodb, DiPostgresql} from 'react-icons/di';
-import { GrHeroku } from 'react-icons/gr';
+import { DiMongodb, DiPostgresql, DiPython} from 'react-icons/di';
+import { GrHeroku, GrGraphQl } from 'react-icons/gr';
 import { GiJesterHat } from 'react-icons/gi';
+
 import { PageTitle } from '../PageTitle/PageTitle';
 
 export const Techstack = () => {
@@ -51,6 +51,13 @@ export const Techstack = () => {
                 <Typography variant="h4" className={classes.heading}><FaCss3Alt className="social-icon" />CSS</Typography>
                 <Typography variant="h4" className={classes.heading}><FaHtml5 className="social-icon" />HTML</Typography>
                 <Typography variant="h4" className={classes.heading}><FaJs className="social-icon" />Javascript</Typography>
+                </Grid>
+
+                <Grid item xs={12} lg={2} className={classes.learning}>
+                <Typography variant="h3" className={classes.title}>Learning</Typography>
+                <Typography variant="h4" className={classes.heading}>D3</Typography>
+                <Typography variant="h4" className={classes.heading}><DiPython className="social-icon" />Python</Typography>
+                <Typography variant="h4" className={classes.heading}><GrGraphQl className="social-icon" />GraphQl</Typography>
                 </Grid>
 
             </Grid>
