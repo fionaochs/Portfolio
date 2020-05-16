@@ -11,7 +11,8 @@ export const useStyles = makeStyles((theme) => ({
       position: 'absolute',
       left: '0',
       bottom: '0',
-      marginTop: '11rem'      
+      top: '10',
+      marginTop: '12rem'      
     },
     container: {
       display: 'flex',
