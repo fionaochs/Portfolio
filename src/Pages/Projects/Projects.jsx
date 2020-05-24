@@ -4,7 +4,8 @@ import { useStyles } from './Projects.styles';
 import shade from '../../Assets/shadespeare.png'
 import groupies from '../../Assets/groupies.png'
 import alchimia from '../../Assets/alchimia1.png'
-import gabbi from '../../Assets/gabbi.png'
+// import gabbi from '../../Assets/gabbi.png'
+import gabbi from '../../Assets/gabbi2.png'
 import { PageTitle } from '../PageTitle/PageTitle';
 
 export const Projects = () => {

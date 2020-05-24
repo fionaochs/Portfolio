@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
-svg {
-  width: 1250;
-  height: 1000
+
+#svg {
+  margin-top: 10rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+}
+.graph {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 .node circle {
   fill: rgb(49, 25, 158);
@@ -37,7 +44,6 @@ svg {
 .link:hover {
   fill: none;
   stroke: rgb(35, 10, 177);
-  /* stroke-opacity: 0.4; */
   stroke-width: 3px;
   cursor: pointer;
 }
