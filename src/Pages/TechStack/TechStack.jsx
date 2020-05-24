@@ -36,6 +36,7 @@ export const Techstack = () => {
                 <Typography variant="h4" className={classes.heading}>Material UI</Typography>
                 <Typography variant="h4" className={classes.heading}>Netlify</Typography>
                 <Typography variant="h4" className={classes.heading}>Twilio</Typography>
+                <Typography variant="h4" className={classes.heading}>D3</Typography>
                 <Typography variant="h4" className={classes.heading}>QUnit</Typography>
                 </Grid>
 
@@ -55,7 +56,6 @@ export const Techstack = () => {
 
                 <Grid item xs={12} lg={2} className={classes.learning}>
                 <Typography variant="h3" className={classes.title}>Learning</Typography>
-                <Typography variant="h4" className={classes.heading}>D3</Typography>
                 <Typography variant="h4" className={classes.heading}><DiPython className="social-icon" />Python</Typography>
                 <Typography variant="h4" className={classes.heading}><GrGraphQl className="social-icon" />GraphQl</Typography>
                 </Grid>

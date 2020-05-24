@@ -23,20 +23,21 @@ export const useStyles = makeStyles((theme) => ({
     },
     h3: {
         fontSize: '1.4rem',
-        color: theme.palette.common.blue.main,
+        color: theme.palette.common.green.main,
+        width: '60vw'
     },
     image: {
         maxWidth: '100%',
-        width: '20rem',
-        height: '20rem',
+        width: '12rem',
+        height: '12rem',
         justifyContent: 'center',
         borderRadius: '1rem',
         boxShadow: '2px 2px 2px 2px #4e8f1ef'
     },
     shade: {
         maxWidth: '100%',
-        width: '8rem',
-        height: '8rem',
+        width: '6rem',
+        height: '6rem',
         justifyContent: 'center',
         borderRadius: '1rem',
         boxShadow: '2px 2px 2px 2px #4e8f1ef'
@@ -45,8 +46,8 @@ export const useStyles = makeStyles((theme) => ({
     },
     alchimia: {
         maxWidth: '100%',
-        width: '8rem',
-        height: '8rem',
+        width: '6rem',
+        height: '6rem',
         justifyContent: 'center',
         borderRadius: '1rem',
         boxShadow: '2px 2px 2px 2px #4e8f1ef'
@@ -54,8 +55,8 @@ export const useStyles = makeStyles((theme) => ({
     },
     groupies: {
         maxWidth: '100%',
-        width: '8rem',
-        height: '8rem',
+        width: '6rem',
+        height: '6rem',
         justifyContent: 'center',
         borderRadius: '1rem',
         boxShadow: '2px 2px 2px 2px #4e8f1ef'
@@ -63,8 +64,8 @@ export const useStyles = makeStyles((theme) => ({
     },
     gabbi: {
         maxWidth: '100%',
-        width: '8rem',
-        height: '8rem',
+        width: '6rem',
+        height: '6rem',
         justifyContent: 'center',
         borderRadius: '1rem',
         boxShadow: '2px 2px 2px 2px #4e8f1ef'
@@ -75,10 +76,10 @@ export const useStyles = makeStyles((theme) => ({
       fontWeight: '550',
       paddingBottom: '1rem'
     },
-    tech: {
-      fontSize: '1.2rem',
-      color: theme.palette.common.green.main, //green
-      fontStyle: 'italic'
+    bullets: { // formerly tech
+      fontSize: '1.5rem',
+      color: theme.palette.common.blue.main, //green
+      // fontStyle: 'italic'
     },
     imageBox: {
         width: '100%',

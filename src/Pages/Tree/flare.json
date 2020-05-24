@@ -140,9 +140,10 @@
     "value": 1616
   },
   {
-    "id": "Fiona Ochs.Learning.D3",
-    "value": 1027
+    "id": "Fiona Ochs.Learning.GraphQL",
+    "value": 2616
   },
+  
   {
     "id": "Fiona Ochs.Attributes",
     "value": ""
@@ -172,20 +173,16 @@
     "value": 4839
   },
   {
-    "id": "Fiona Ochs.Attributes.RootAttributes",
+    "id": "Fiona Ochs.Attributes.Ambitious",
     "value": 1756
   },
   {
-    "id": "Fiona Ochs.Attributes.Attributes",
+    "id": "Fiona Ochs.Attributes.Initiative",
     "value": 4268
   },
   {
-    "id": "Fiona Ochs.Attributes.AttributesType",
+    "id": "Fiona Ochs.Attributes.Integrity",
     "value": 1821
-  },
-  {
-    "id": "Fiona Ochs.Attributes.TimeScale",
-    "value": 5833
   },
   {
     "id": "Fiona Ochs.Traveled To",
@@ -258,6 +255,10 @@
   {
     "id": "Fiona Ochs.TechStack.Tools.QUnit",
     "value": 4896
+  },
+  {
+    "id": "Fiona Ochs.TechStack.Tools.D3",
+    "value": 2027
   },
   {
     "id": "Fiona Ochs.TechStack.DataBases",
