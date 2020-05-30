@@ -8,7 +8,7 @@ export const Tree = () => {
   const classes = useStyles();
   return (
     <Grid container className={classes.root}>
-            <Grid item xs={12} className={classes.container} >
+            <Grid item xs={12} className={`${classes.container} ${classes.oneToOne}`} >
               <TreeD3 />
             </Grid>
         </Grid>

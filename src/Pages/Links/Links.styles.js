@@ -10,14 +10,12 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: 'flex-end',
         color: theme.palette.primary.main,
         marginTop: '-4rem',
-        marginRight: '4.5rem',
-        // position: 'fixed',
-
-        
+        marginRight: '2.5rem',
+        // position: 'fixed'
       },
       link: {
         padding: '0 .4rem 0 .4rem',
-        fontWeight: '550',
+        fontWeight: '500',
         fontSize: '1.2rem',
         // color: theme.palette.secondary.main, //white
         color: theme.palette.common.green.main, //green

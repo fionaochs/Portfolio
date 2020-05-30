@@ -15,7 +15,7 @@ export const Links = () => {
                 <Link className={classes.link} href="/">Work</Link>
                 <Link className={classes.link} href="/techstack">Tech Stack</Link>
                 <Link className={classes.link} href="/about">About</Link>
-                {/* <Link className={classes.link} href="/contact">Contact</Link> */}
+                <Link className={classes.link} href="/contact">Contact</Link>
             </Grid>
         </Grid>
     );

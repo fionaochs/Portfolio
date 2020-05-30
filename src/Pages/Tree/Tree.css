@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
 #svg {
-  margin-top: 10rem;
-  margin-bottom: 0rem;
-  margin-left: 0rem;
-}
-.graph {
   max-width: 100%;
   width: 100%;
-  height: auto;
+}
+@media screen and (max-width: 360px) {
+  #svg {
+    width: 200rem;
+    height: 70rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  #svg {
+    width: 200rem;
+    height: 75rem;
+  }
 }
 .node circle {
   fill: rgb(49, 25, 158);

@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
-import { useResizeObserver } from './d3Hooks';
 import './Tree.css';
 import data from './flare.json';
 
@@ -10,16 +9,21 @@ export const TreeD3 = () => {
   useEffect(() => {
     renderFunction();
   }, []);
-  const dimensions = useResizeObserver(ref);
   
   const renderFunction = () => {
-    const { width, height } = dimensions || ref.current.getBoundingClientRect();
     console.log(data);
 
-  const svg = d3.select(ref.current),
-      // width = +svg.attr("width"),
-      // height = +svg.attr("height"),
-      g = svg.append("g").attr("transform", "translate(" + (width / 2 - 15) + "," + (height / 2 + 25) + ")");
+    const width = 1800;
+    const height = 1400;
+    const margin = { top: 5, right: 0, bottom: 0, left: 0 };
+
+  const svg = d3.select(ref.current);
+
+      svg
+      .attr('viewBox', `0, 0, ${width}, ${height}`)
+      .attr('preserveAspectRatio', 'xMinYMin meet');
+
+      const g = svg.append("g").attr("transform", "translate(" + (width / 2 - 15) + "," + (height / 2 + 25) + ")");
 
       
 
@@ -76,6 +80,6 @@ export const TreeD3 = () => {
     }
 };
 return (
-  <svg id="svg" ref={ref} className="graph" width="100%" height="auto" />
+  <svg id="svg" ref={ref} className="graph" width="1800" height="1500" />
 )
 }

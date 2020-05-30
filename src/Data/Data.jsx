@@ -2,20 +2,40 @@ import shade from '../Assets/shadespeare.png'
 import groupies from '../Assets/groupies.png'
 import alchimia from '../Assets/alchimia1.png'
 import gabbi from '../Assets/gabbi-logo-red.png'
+import viral from '../Assets/GoingViralLogo.png'
 
-export const langArr = ['JavaScript', 'HTML', 'CSS'];
+// export const langArr = ['JavaScript', 'HTML', 'CSS'];
 
-export const toolArr = ['Heroku', 'Netlify', 'Jest', 'QUnit', 'Github', 'Twilio', 'Jira'];
+// export const toolArr = ['Heroku', 'Netlify', 'Jest', 'QUnit', 'Github', 'Twilio', 'Jira'];
 
-export const backEnd = ['Node.js', 'Express'];
+// export const backEnd = ['Node.js', 'Express'];
 
-export const frontEnd = ['React.js'];
+// export const frontEnd = ['React.js'];
 
-export const databases = ['PostgreSQL', 'MongoDB', 'Mongoose'];
-
+// export const databases = ['PostgreSQL', 'MongoDB', 'Mongoose'];
 
 
 export const projects = [
+  {
+    title: 'Going Viral',
+    img: viral,
+    description: 'Interactive data visualizations for changes in global mobility metrics during times of quarantine.',
+    tech: ['MongoDB, Node, React, Material UI, D3'],
+    bulletList: ['Built back end routes with Node, and Express',
+    'Stored data in MongoDB', 'Implemented TDD with Jest',
+    'Worked with D3 for data visualizations', 'Built front end with React', 'Used Material UI for mobile responsiveness'],
+    liveLink: 'https://goingviral.netlify.app/',
+    repoLink: 'https://github.com/Going-Viral'
+  },
+  {
+    title: 'Gabbi',
+    img: gabbi,
+    description: 'Digital health platform for women.',
+    tech: ['Node.JS, React, MongoDB'],
+    bulletList: ['TDD for back end routes and models in Node', 'Connect to MongoDB', 'Integrate data with React front end', 'Material UI for responsive mobile design'],
+    liveLink: 'https://www.begabbi.com/',
+    repoLink: null
+  },
   {
     title: 'Alchimia',
     img: alchimia,
@@ -49,13 +69,5 @@ export const projects = [
     liveLink: 'https://shadespeare-insults.herokuapp.com/',
     repoLink: 'https://github.com/Shakespeare-Insult-Bot'
   },
-  {
-    title: 'Gabbi',
-    img: gabbi,
-    description: 'Digital health platform for women.',
-    tech: ['Node.JS, React, MongoDB'],
-    bulletList: ['TDD for back end routes and models in Node', 'Connect to MongoDB', 'Integrate data with React front end', 'Material UI for responsive mobile design'],
-    liveLink: 'https://www.begabbi.com/',
-    repoLink: null
-  },
+
 ];
