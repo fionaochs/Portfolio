@@ -22,11 +22,11 @@ export const ProjectsMap = ({ title, img, description, tech, liveLink, repoLink,
               </Grid>
               <Grid xs={12} className={classes.project}>
                 <Typography variant="h3" className={classes.h1}>{title}</Typography>
-                {/* <Typography variant="h3" className={classes.tech}>{tech}</Typography> */}
                 <Typography variant="h3" className={classes.h3}>{description}</Typography>
                 <Typography variant="h3" className={classes.bullets}>{bullets}</Typography>
                     <Grid item xs={12} className={classes.links}>
-                    <Link className={classes.link} href={repoLink} target="_blank">GitHub</Link>
+                      { repoLink ? <Link className={classes.link} href={repoLink} target="_blank">GitHub</Link> : <p></p> }
+
                       <Link className={classes.link} href={liveLink} target="_blank">Live site</Link>
                     </Grid>
                 </Grid>

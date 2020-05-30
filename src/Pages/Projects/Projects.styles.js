@@ -24,6 +24,7 @@ export const useStyles = makeStyles((theme) => ({
     h3: {
         fontSize: '1.4rem',
         color: theme.palette.common.green.main,
+        fontWeight: 'bold',
         width: '60vw'
     },
     image: {
@@ -73,6 +74,8 @@ export const useStyles = makeStyles((theme) => ({
     h1: {
       fontSize: '1.5rem',
       color: theme.palette.common.blue.main,
+      textShadow: '1px 1px 1px #87a3d0',
+
       fontWeight: '550',
       paddingBottom: '1rem'
     },

@@ -18,7 +18,8 @@ function App() {
                         <Header />
                     <Switch>
                         <Route exact path="/" component={ProjectsContainer} />
-                        <Route path="/about" component={About} />
+                        <Route path="/about" component={Tree} />
+                        <Route path="/contact" component={About} />
                         <Route path="/techstack" component={Techstack} />
                         {/* <Route path="/tree" component={Tree} /> */}
                     </Switch>
