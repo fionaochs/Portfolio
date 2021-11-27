@@ -9,12 +9,12 @@ export const Header = () => {
     return (
         <Grid container className={classes.root}>
             <Grid item xs={12} className={classes.logoContainer} >
-                <img alt="logo" src={logo} className={classes.image}/>
+                {/*<img alt="logo" src={logo} className={classes.image}/>*/}
 
-                <Grid item xs={12}>
+                {/*<Grid item xs={12}>*/}
                 <Typography variant="h1" className={classes.title}>Fiona Ochs</Typography>
-                <Typography variant="h2" className={classes.heading}>Full Stack <br/> Software Developer</Typography>
-                </Grid>
+                <Typography variant="h2" className={classes.heading}>Full Stack Software Engineer</Typography>
+                {/*</Grid>*/}
             </Grid>
             <Links />
         </Grid>

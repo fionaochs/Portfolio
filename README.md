@@ -1,68 +1,75 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![Latest Stable Version](https://poser.pugx.org/jetbrains/phpstorm-workshop/v/stable.png)](https://packagist.org/packages/jetbrains/phpstorm-workshop) [![Total Downloads](https://poser.pugx.org/jetbrains/phpstorm-workshop/downloads.png)](https://packagist.org/packages/jetbrains/phpstorm-workshop) [![License](https://poser.pugx.org/jetbrains/phpstorm-workshop/license.png)](https://packagist.org/packages/jetbrains/phpstorm-workshop)
 
-## Available Scripts
+# PhpStorm Workshop
 
-In the project directory, you can run:
+In these materials, you'll learn about many of the features and productivity tools available in [PhpStorm](http://www.jetbrains.com/phpstorm). Examples are navigation, editing, inspections, live templates, refactoring, tools like Composer and the HTTP client, and many more. It's virtually impossible to cover every option and feature in PhpStorm, but we're providing a number of practical exercises on how we can do our daily work as PHP developers.
 
-### `yarn start`
+We'll also cover a vast amount of keyboard shortcuts to make working with PhpStorm more efficient. Other IntelliJ-based IDE's use the same keyboard shortcuts, so if you know how to work with PhpStorm, you'll know how to work with WebStorm, RubyMine, PyCharm, IntelliJ IDEA and more. A [cheat sheet is available online](http://bit.ly/1Ni0XJ0) and is also included in the workshop download.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This workshop is self-paced, meaning you can work your way through exercises on your own, whenever and wherever you want. Exercises come as a PhpStorm project in which every file is a new exercise that may contain code and tips to get things done.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Prerequisites
 
-### `yarn test`
+* Docker for Mac, Docker for Windows or Docker (Linux) 1.13+. See [Docker documentation](https://docs.docker.com/install/) for installation instructions for your operating system. 
+* PhpStorm 2016.3+
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting the Project
 
-### `yarn build`
+There are several ways to get started with the PhpStorm workshop materials:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Create a new PhpStorm Workshop Project in PhpStorm
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* Create a new project with Composer. Note that you can also create a new project in PhpStorm: use the *Composer* project type and search for "jetbrains/phpstorm-workshop"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    `php composer.phar create-project jetbrains/phpstorm-workshop -s dev`
 
-### `yarn eject`
+* Clone the project from GitHub
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    `git clone https://github.com/JetBrains/phpstorm-workshop.git`
+    
+    `git checkout docker`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Download the ZIP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    `wget https://github.com/JetBrains/phpstorm-workshop/archive/docker.zip`
+    
+## Getting Started
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Most exercises not related to the code editor require having Docker containers running. 
 
-## Learn More
+Before you start:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Open *Settings/Preferences | Build, Execution, Deployment | Docker* and select how to connect to the Docker daemon:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    * Windows:  
+        * Select *TCP socket*.
+        * Set *Engine API URL* to *tcp://localhost:2375*.
+        * Leave the *Certificates folder* field empty.
+            
+        Make sure to enable *Expose daemon on tcp://localhost:2375 without TLS* in the *General* section of Docker for Windows settings.
+        
+    * macOS: 
+        
+        * Select *Docker for Mac*
+    
+    * Linux:
+        * Select *Unix socket*
 
-### Code Splitting
+2. Update `XDEBUG_CONFIG` variable in `docker-compose.yml` with the value depending on your operating system. This is necessary for Web Debugging.
+    
+    * Windows/macOS: use `host.docker.internal`, which will automatically resolve to the internal address of the host Docker is running on.
+    * Linux: execute `hostname` in Terminal and use the returned value.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+3. Uncomment an appropriate line for `sftp` service in the same `docker-compose.yml`. This is necessary for Deployment to work correctly.
 
-### Analyzing the Bundle Size
+4. In the same `docker-compose.yml`, click the *Run* icon next to `services:` in the editor gutter to start all required Docker containers. Alternatively, you can open the built-in PhpStorm terminal from *View | Tool Windows | Terminal* and execute the `docker-compose up` command.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+There are some things to know about the project:
 
-### Making a Progressive Web App
+* The project can be opened as is in PhpStorm. We've included configurations for PHP Remote Interpreter, Database, Deployment Server, PHP Web Debug, PHPUnit and Behat.
+* All numbered folders contain exercises that you can work on. Simply open the numbered files one by one and follow the comments in the file. Most exercises are self-contained, others build on previous exercises.
+* Some of the exercises (like this one) are in *Markdown* format. You can read these files easier by toggling *View* to *Show Preview Only* in the top-right corner.
+* The `PhpStorm Reference Card.pdf` is the PhpStorm keymap. The latest version can always be found on the [PhpStorm website](http://bit.ly/1Ni0XJ0).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Open Source and Contribution
+The workshop is Open Source, licensed under the Apache 2 license. If you would like to contribute to the workshop materials, please feel free to fork the repo and send us a pull request. Or if you have a comment, question, or suggestion for improvements, please [raise an issue](https://github.com/JetBrains/phpstorm-workshop/issues).

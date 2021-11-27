@@ -6,18 +6,19 @@ export const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: '12rem',
-    paddingBottom: '5rem',
+    marginTop: '10rem',
+    // paddingBottom: '5rem',
+    background: theme.palette.common.blue.main
   },
   title: {
     fontSize: '1.6rem',
-    color: theme.palette.common.green.main, //white
-    paddingBottom: '.5rem',
+    // color: theme.palette.common.white.main, //white
+    // paddingBottom: '.5rem',
     fontWeight: '550'
   },
   heading: {
     fontSize: '1.2rem',
-    color: theme.palette.common.blue.main,
+    color: theme.palette.common.white.main,
   },
   techstack: {
     display: 'flex',
@@ -25,7 +26,8 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     maxWidth: '100%',
     // width: '60vw',
-    padding: '1rem'
+    padding: '1rem',
+    color: theme.palette.common.green.main
   },
   more: {
     fontSize: '1.8rem',
@@ -33,13 +35,15 @@ export const useStyles = makeStyles((theme) => ({
     paddingBottom: '.5rem',
     paddingTop: '1rem',
     fontWeight: '550'
-
   },
   frontEnd: {
     alignItems: 'center',
     display: 'flex',
     flexDirection: 'column',
-    padding: '1rem'
+    padding: '1rem',
+    '@media screen and (max-width: 767px)': {
+      marginTop: '-2.5rem'
+    },
   },
   backEnd: {
     alignItems: 'center',
@@ -52,7 +56,10 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     display: 'flex',
     flexDirection: 'column',
-    padding: '1rem'
+    padding: '1rem',
+    '@media screen and (max-width: 767px)': {
+      paddingBottom: '15rem'
+    },
 
   },
   tools: {
@@ -66,7 +73,7 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     display: 'flex',
     flexDirection: 'column',
-    padding: '1rem'
+    padding: '1rem',
   },
   learning: {
     alignItems: 'center',

@@ -40,7 +40,7 @@
     "value": 5219
   },
   {
-    "id": "Fiona Ochs.Interests.Love.Swimming",
+    "id": "Fiona Ochs.Interests.Love.Neurobiology",
     "value": 3165
   },
   {
@@ -116,6 +116,22 @@
     "value": 3331
   },
   {
+    "id": "Fiona Ochs.Interests.Gene sequencing",
+    "value": 301
+  },
+  {
+    "id": "Fiona Ochs.Interests.Gene editing",
+    "value": 302
+  },
+  {
+    "id": "Fiona Ochs.Interests.CRISPR",
+    "value": 401
+  },
+  {
+    "id": "Fiona Ochs.Interests.Hydroponics",
+    "value": 441
+  },
+  {
     "id": "Fiona Ochs.Bachelor of Science",
     "value": ""
   },
@@ -143,7 +159,6 @@
     "id": "Fiona Ochs.Learning.GraphQL",
     "value": 2616
   },
-  
   {
     "id": "Fiona Ochs.Attributes",
     "value": ""
@@ -241,6 +256,14 @@
     "value": 1353
   },
   {
+    "id": "Fiona Ochs.TechStack.Tools.Stripe",
+    "value": 1673
+  },
+  {
+    "id": "Fiona Ochs.TechStack.Tools.AWS",
+    "value": 1353
+  },
+  {
     "id": "Fiona Ochs.TechStack.Tools.MaterialUI",
     "value": 4665
   },
@@ -275,6 +298,14 @@
   {
     "id": "Fiona Ochs.TechStack.DataBases.PostgreSQL",
     "value": 10349
+  },
+  {
+    "id": "Fiona Ochs.TechStack.DataBases.mySQL",
+    "value": 10469
+  },
+  {
+    "id": "Fiona Ochs.TechStack.DataBases.Parse",
+    "value": 10369
   },
   {
     "id": "Fiona Ochs.TechStack.FrontEnd",

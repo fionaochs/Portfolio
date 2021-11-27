@@ -1,99 +1,110 @@
-import { makeStyles } from '@material-ui/core';
+import {makeStyles} from '@material-ui/core';
 
 export const useStyles = makeStyles((theme) => ({
     root: {
-        //   backgroundColor: theme.palette.secondary.main, //background
-          backgroundColor: '#fff', //background
-          // backgroundColor: 'linear-gradient(to right, rgb(0,109,74), #2CA5A3)', //background
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            flexWrap: 'nowrap',
-            marginTop: '12rem',
-            paddingBottom: '5rem'
-        },
+        backgroundColor: theme.palette.common.blue.main, //background
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        // flexWrap: 'nowrap',
+        marginTop: '10rem',
+        // paddingBottom: '5rem',
+        // '@media screen and (max-width: 767px)': {
+        //     width: '100%'
+        // },
+    },
     about: {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
-        paddingBottom: '2rem',
-        // marginTop: '15rem'
+        paddingBottom: '5rem',
+        marginLeft: '15rem',
+        '@media screen and (max-width: 767px)': {
+            margin: '0'
+        },
     },
     h3: {
         fontSize: '1.5rem',
-        color: theme.palette.common.blue.main,
+        color: theme.palette.common.green.main,
         width: '43rem',
-        marginTop: '2rem',
+        // marginTop: '2rem',
     },
     span: {
         fontSize: '1.5rem',
-        color: theme.palette.common.red.main,
-        width: '43rem',
-        marginTop: '2rem',
+        color: theme.palette.common.slate.main, //white
+        width: '30rem',
+        // marginTop: '2rem'
     },
-    // span: {
-    //     fontSize: '1.5rem',
-    //     color: theme.palette.secondary.main, //white
-    //     width: '30rem',
-    //     marginTop: '2rem'
-    // },
-    imageContainer: {
+    textContainer: {
         display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center'
-        },
-    image: {
-        maxWidth: '100%',
-        width: '20rem',
-        height: '20rem',
-        marginBottom: '-5rem',
-        paddingTop: '1rem'
-        },
-        email: {
-            color: theme.palette.common.blue.main,
-            fontSize: "1.5rem",
-            padding: '.5rem',
-        },
-        resume: {
-            color: theme.palette.common.blue.main,
-            fontSize: "1.5rem",
-            padding: '.5rem',
-        },
-        link: {
-            padding: '0 .5rem 0 .5rem',
-            fontSize: '1.5rem',
-            textDecoration: 'underline',
-            color: theme.palette.common.green.main, //white
-            '&:hover': {
-            color: theme.palette.common.blue.main,
-            }
-        },
-        title: {
-            color: theme.palette.common.red.main,
-            fontSize: "1.5rem",
-            padding: '.5rem',
-            fontWeight: '550'
-        },
-        text: {
-            display: 'flex',
-            justifyContent: 'center',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        '@media screen and (max-width: 767px)': {
             flexDirection: 'column',
-            alignItems: 'center',
-            marginTop: '5rem',
-            padding: '1rem',
+            alignItems: 'center'
         },
-        icon: {
-            fontSize: '1.5rem',
-            padding: '.5rem',
-            color: theme.palette.common.green.main, //white
+    },
+    email: {
+        color: theme.palette.common.slate.main,
+        fontSize: "1.5rem",
+        padding: '.5rem',
+        '@media screen and (max-width: 767px)': {
+          marginBottom: '1.5rem'
+        },
+    },
+    link: {
+        color: theme.palette.common.green.main,
+        fontSize: "1.3rem",
+        padding: '.5rem .5rem .5rem .5rem',
+        // marginLeft: '.5rem',
+        border: theme.palette.common.green.main,
+        borderStyle: 'solid',
+        borderRadius: '5px',
+        transition: 'all .5s ease',
+        outline: 'none',
         '&:hover': {
-            color: theme.palette.common.blue.main,
+            backgroundColor: theme.palette.common.green.main,
+            color: theme.palette.primary.main
+        }
+    },
+    title: {
+        color: theme.palette.common.slate.main,
+        fontSize: "1.5rem",
+        padding: '.5rem',
+        fontWeight: '550'
+    },
+    text: {
+        display: 'flex',
+        justifyContent: 'center',
+        flexDirection: 'column',
+        alignItems: 'center',
+        marginBottom: '5rem',
+        marginRight: '15rem',
+        padding: '1rem',
+        color: theme.palette.common.slate.main,
+        '@media screen and (max-width: 767px)': {
+            margin: '0 0 2rem 0'
         },
+    },
+    icon: {
+        fontSize: '1.8rem',
+        padding: '.5rem',
+        color: theme.palette.common.green.main, //white
+        '&:hover': {
+            color: theme.palette.common.slate.main,
         },
-        icons: {
-            display: 'flex',
-            flexDirection: 'row',
-        }    
+
+    },
+    icons: {
+        display: 'flex',
+        flexDirection: 'row',
+        marginTop: '1.5rem',
+        '@media screen and (max-width: 767px)': {
+            margin: '0 0 10rem 0',
+            fontSize: '1rem'
+        },
+        // padding: '1rem'
+    },
 }));

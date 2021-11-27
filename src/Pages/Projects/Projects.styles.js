@@ -7,7 +7,7 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
-        paddingBottom: '5rem',
+        // paddingBottom: '5rem',
         // background: 'white'
     },
     project: {
@@ -35,34 +35,34 @@ export const useStyles = makeStyles((theme) => ({
         borderRadius: '1rem',
         boxShadow: '2px 2px 2px 2px #4e8f1ef'
     },
-    shade: {
-        maxWidth: '100%',
-        width: '6rem',
-        height: '6rem',
-        justifyContent: 'center',
-        borderRadius: '1rem',
-        boxShadow: '2px 2px 2px 2px #4e8f1ef'
-        // #4ab19a green footer?
-        // #fff background color
-    },
-    alchimia: {
-        maxWidth: '100%',
-        width: '6rem',
-        height: '6rem',
-        justifyContent: 'center',
-        borderRadius: '1rem',
-        boxShadow: '2px 2px 2px 2px #4e8f1ef'
-
-    },
-    groupies: {
-        maxWidth: '100%',
-        width: '6rem',
-        height: '6rem',
-        justifyContent: 'center',
-        borderRadius: '1rem',
-        boxShadow: '2px 2px 2px 2px #4e8f1ef'
-
-    },
+    // shade: {
+    //     maxWidth: '100%',
+    //     width: '6rem',
+    //     height: '6rem',
+    //     justifyContent: 'center',
+    //     borderRadius: '1rem',
+    //     boxShadow: '2px 2px 2px 2px #4e8f1ef'
+    //     // #4ab19a green footer?
+    //     // #fff background color
+    // },
+    // alchimia: {
+    //     maxWidth: '100%',
+    //     width: '6rem',
+    //     height: '6rem',
+    //     justifyContent: 'center',
+    //     borderRadius: '1rem',
+    //     boxShadow: '2px 2px 2px 2px #4e8f1ef'
+    //
+    // },
+    // groupies: {
+    //     maxWidth: '100%',
+    //     width: '6rem',
+    //     height: '6rem',
+    //     justifyContent: 'center',
+    //     borderRadius: '1rem',
+    //     boxShadow: '2px 2px 2px 2px #4e8f1ef'
+    //
+    // },
     gabbi: {
         maxWidth: '100%',
         width: '6rem',
@@ -73,15 +73,14 @@ export const useStyles = makeStyles((theme) => ({
     },
     h1: {
       fontSize: '1.5rem',
-      color: theme.palette.common.blue.main,
-      textShadow: '1px 1px 1px #87a3d0',
-
+      color: theme.palette.common.slate.main,
+      // textShadow: '1px 1px 1px #87a3d0',
       fontWeight: '550',
       paddingBottom: '1rem'
     },
     bullets: { // formerly tech
       fontSize: '1.5rem',
-      color: theme.palette.common.blue.main, //green
+      color: theme.palette.common.green.main, //green
       // fontStyle: 'italic'
     },
     imageBox: {
@@ -102,10 +101,10 @@ export const useStyles = makeStyles((theme) => ({
       fontSize: '1.2rem',
       color: theme.palette.common.green.main, //green
       '&:hover': {
-        color: theme.palette.common.blue.main
+        color: theme.palette.common.slate.main
       },
       '&$focusVisible': {
-        color: theme.palette.common.blue.main,
+        color: theme.palette.common.slate.main,
       }
     }
 }));

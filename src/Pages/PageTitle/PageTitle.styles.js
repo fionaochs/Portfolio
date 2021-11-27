@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core';
 
 export const useStyles = makeStyles((theme) => ({
   root: {
-    background: '#4ab19ab0',
+    background: theme.palette.common.blue.main,
     width: '100%',
     height: '4rem',  
     marginBottom: '2rem'
@@ -15,6 +15,6 @@ export const useStyles = makeStyles((theme) => ({
       title: {
         color: theme.palette.secondary.main, //white
         fontSize: '2rem',
-        textShadow: '1px 1px 2px #87a3d0',
+        // textShadow: '1px 1px 2px #87a3d0',
     }
 }));

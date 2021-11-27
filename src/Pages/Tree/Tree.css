@@ -1,55 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
 #svg {
-  max-width: 100%;
-  width: 100%;
+    max-width: 100%;
+    width: 100%;
 }
-@media screen and (max-width: 360px) {
-  #svg {
-    width: 200rem;
-    height: 70rem;
-  }
-}
-@media screen and (max-width: 640px) {
-  #svg {
-    width: 200rem;
-    height: 75rem;
-  }
-}
-.node circle {
-  fill: rgb(49, 25, 158);
-}
-.node--leaf circle {
-  fill: rgb(17, 105, 79);
 
+@media screen and (max-width: 360px) {
+    #svg {
+        width: 200rem;
+        height: 70rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #svg {
+        width: 200rem;
+        height: 75rem;
+    }
+}
+
+.node circle {
+    fill: #ccd6f6;
+}
+
+.node--leaf circle {
+    /*fill: rgb(17, 105, 79);*/
+    fill: #64ffda
+}
+.node--leaf {
+    fill: #ccd6f6
 }
 .node text {
-  font: 1rem sans-serif;
-  font-family: 'Vollkorn', serif;
-  color: blue;
+    font: 1rem sans-serif;
+    font-family: 'Vollkorn', serif;
+    /*color: #64ffda;*/
+    color: #ccd6f6
 }
 
 .node--internal circle {
-  fill: rgb(34, 57, 134);
+    /*fill: rgb(34, 57, 134);*/
+    fill: #ccd6f6
 }
 
 .node--internal text {
-  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
-}
-.node--internal text:hover, .link:hover {
-  text-shadow: 0 1px 0 rgb(15, 23, 139), 0 -1px 0 rgb(15, 23, 139), 1px 0 0 rgb(15, 23, 139), -1px 0 0 #fff;
-  color: rgb(35, 10, 177);
+    fill: #64ffda
+    /*text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;*/
 }
 
+/*.node--internal text:hover, .link:hover {*/
+/*  !*text-shadow: 0 1px 0 rgb(15, 23, 139), 0 -1px 0 rgb(15, 23, 139), 1px 0 0 rgb(15, 23, 139), -1px 0 0 #fff;*!*/
+/*  color: #ccd6f6;*/
+/*}*/
+
 .link {
-  fill: none;
-  stroke: rgb(27, 101, 104);
-  stroke-opacity: 0.4;
-  stroke-width: 1.5px;
+    fill: none;
+    stroke: #ccd6f6;
+    stroke-opacity: 0.4;
+    stroke-width: 1.5px;
 }
+
 .link:hover {
-  fill: none;
-  stroke: rgb(35, 10, 177);
-  stroke-width: 3px;
-  cursor: pointer;
+    fill: none;
+    stroke: #ccd6f6;
+    stroke-width: 3px;
+    cursor: pointer;
+}
+.text {
+    fill: #ccd6f6
 }

@@ -1,12 +1,13 @@
-import { makeStyles } from '@material-ui/core';
+import {makeStyles} from '@material-ui/core';
 
 export const useStyles = makeStyles((theme) => ({
     root: {
-      // background: 'linear-gradient(to right, rgb(2, 101, 78), rgb(44, 165, 163))',
-      // background: 'linear-gradient(to right, rgb(20,146,124), rgb(44, 165, 163))',
-      backgroundColor: theme.palette.secondary.main, 
-      width: '100vw',
-      minHeight: '100vh',
-      position: 'relative',
+        backgroundColor: theme.palette.primary.main,
+        width: '100vw',
+        minHeight: '100vh',
+        position: 'relative',
+        '@media screen and (max-width: 767px)': {
+            width: '100vw'
+        },
     },
 }));

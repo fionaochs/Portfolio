@@ -8,7 +8,8 @@ export const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         textAlign: 'center',
         padding: '1rem',
-        marginTop: '11rem',
+        marginTop: '10rem',
+        backgroundColor: theme.palette.common.blue.main,
     },
     button: {
       color: theme.palette.common.blue.main,
