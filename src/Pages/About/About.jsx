@@ -2,7 +2,6 @@ import React from 'react';
 import {Grid, Typography, Link} from '@material-ui/core';
 import {useStyles} from './About.styles';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
-import hobbit from '../../Assets/hobbitholecrop2.png'
 import resume from '../../Assets/resume.pdf'
 import {PageTitle} from '../PageTitle/PageTitle';
 
@@ -15,14 +14,14 @@ export const About = () => {
 
             <Grid item xs={12} className={classes.textContainer}>
                 <Grid item xs={12} className={classes.about}>
-                    <Typography variant="h3" className={classes.h3}>Hi, I'm <span>Fiona Ochs</span>, a Full Stack
+                    <Typography variant="h3" className={classes.h3}>Hi, I'm </Typography>
+                    <Typography variant="h2" className={classes.h2}>Fiona Ochs</Typography>,
+                    <Typography variant="h3" className={classes.h3}>a Full Stack
                         Software Engineer, with a background in Neurobiology. I enjoy figuring out how things work and
-                        the processes involved, and I apply this curiousty towards my love of coding. <br/><br/>
+                        the processes involved, and I apply this curiosity towards my love of coding. <br/><br/>
                         Striving to produce clean, testable and maintainable code. Interested in the data manipulation
                         and logic driven side of back-end, while also a lover of React, clean UI, and converting
-                        information to concise data visualizations.<br/><br/>
-                        When I am not coding, and not stuck at home, I love to travel, be out hiking, do Crossfit, bake
-                        healthy treats, play board games and read.</Typography>
+                        information to concise data visualizations.</Typography>
                 </Grid>
                 <Grid item xs={12} className={classes.text}>
                     <Typography variant="h1" className={classes.title}>I look forward to hearing from you.</Typography>

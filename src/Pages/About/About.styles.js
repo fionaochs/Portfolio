@@ -15,6 +15,7 @@ export const useStyles = makeStyles((theme) => ({
     },
     about: {
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
@@ -27,13 +28,13 @@ export const useStyles = makeStyles((theme) => ({
     h3: {
         fontSize: '1.5rem',
         color: theme.palette.common.green.main,
-        width: '43rem',
+        // width: '43rem',
         // marginTop: '2rem',
     },
-    span: {
-        fontSize: '1.5rem',
+    h2: {
+        fontSize: '2rem',
         color: theme.palette.common.slate.main, //white
-        width: '30rem',
+        // width: '30rem',
         // marginTop: '2rem'
     },
     textContainer: {
@@ -51,7 +52,7 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: "1.5rem",
         padding: '.5rem',
         '@media screen and (max-width: 767px)': {
-          marginBottom: '1.5rem'
+            marginBottom: '1.5rem'
         },
     },
     link: {

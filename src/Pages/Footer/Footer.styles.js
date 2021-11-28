@@ -21,7 +21,7 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
     },
     title: {
-        color: theme.palette.common.blue.main, //white
+        color: theme.palette.common.primary, //white
         fontSize: '1.3rem',
         marginTop: '2rem'
     },
@@ -31,7 +31,7 @@ export const useStyles = makeStyles((theme) => ({
         color: theme.palette.common.primary, //white
         '&:hover': {
             // backgroundColor: theme.palette.common.blue.main,
-            color: theme.palette.common.white.main
+            color: theme.palette.common.slate.main
         },
     },
     icons: {
