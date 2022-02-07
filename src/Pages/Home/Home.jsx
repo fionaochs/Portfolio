@@ -14,12 +14,10 @@ export const Home = () => {
                     <Typography variant="h3" className={classes.h3}>Hi, I'm </Typography>
                     <Typography variant="h2" className={classes.h2}>Fiona Ochs</Typography>,
                 </Grid>
-                <Typography variant="h3" className={classes.h3}>I'm a Full Stack
-                    Software Engineer. I enjoy figuring out how things work and
-                    the processes involved, and I apply this curiosity towards my love of coding. <br/><br/>
-                    Striving to produce clean, testable and maintainable code. Interested in the data manipulation
-                    and logic driven side of back-end, while also a lover of React, clean UI, and converting
-                    information to concise data visualizations.</Typography>
+                <Typography variant="h3" className={classes.h3}> a Full Stack
+                    Software Engineer. Passionate about biotech, synthetic biology, fixing healthcare disparities,
+                    sustainability and opportunities where my skills as an Engineer and background in medicine can come together.
+                </Typography>
             </Grid>
         </Grid>
     );

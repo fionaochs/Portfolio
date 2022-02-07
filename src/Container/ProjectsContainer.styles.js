@@ -64,8 +64,8 @@ export const useStyles = makeStyles((theme) => ({
     },
     gabbi: {
         maxWidth: '100%',
-        width: '15rem',
-        height: '15rem',
+        width: '10rem',
+        height: '10rem',
         justifyContent: 'center',
         borderRadius: '1rem',
         boxShadow: '2px 2px 2px 2px #4e8f1ef'

@@ -40,6 +40,7 @@ export const Techstack = () => {
                 <Typography variant="h4" className={classes.heading}>Netlify</Typography>
                 <Typography variant="h4" className={classes.heading}>Twilio</Typography>
                 <Typography variant="h4" className={classes.heading}>QUnit</Typography>
+                <Typography variant="h4" className={classes.heading}>BioPython</Typography>
                 </Grid>
 
                 <Grid item xs={12} lg={2} className={classes.databases}>

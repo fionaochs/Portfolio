@@ -17,11 +17,9 @@ export const About = () => {
                     <Typography variant="h3" className={classes.h3}>Hi, I'm </Typography>
                     <Typography variant="h2" className={classes.h2}>Fiona Ochs</Typography>,
                     <Typography variant="h3" className={classes.h3}>a Full Stack
-                        Software Engineer, with a background in Neurobiology. I enjoy figuring out how things work and
-                        the processes involved, and I apply this curiosity towards my love of coding. <br/><br/>
-                        Striving to produce clean, testable and maintainable code. Interested in the data manipulation
-                        and logic driven side of back-end, while also a lover of React, clean UI, and converting
-                        information to concise data visualizations.</Typography>
+                        Software Engineer, with a Bachelors in Neurobiology and experience in the medical industry. <br/><br/>
+                        I am passionate about biotech, synthetic biology, fixing healthcare disparities,
+                        and sustainability. I am looking for opportunities where my skills as an Engineer and background in medicine can come together.</Typography>
                 </Grid>
                 <Grid item xs={12} className={classes.text}>
                     <Typography variant="h1" className={classes.title}>I look forward to hearing from you.</Typography>

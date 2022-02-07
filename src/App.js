@@ -9,6 +9,7 @@ import { Techstack } from './Pages/TechStack/TechStack';
 import { Tree } from './Pages/Tree/Tree';
 import { Home } from './Pages/Home/Home';
 import { ProjectsContainer2 } from './Container/ProjectsContainer2';
+import { ProjectsContainer } from './Container/ProjectsContainer';
 
 function App() {
     const styles = useStyles();
@@ -18,8 +19,8 @@ function App() {
                     <CssBaseline />
                         <Header />
                     <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/work" component={ProjectsContainer2} />
+                        {/*<Route exact path="/" component={Home} />*/}
+                        <Route exact path="/" component={ProjectsContainer} />
                         <Route path="/about" component={Tree} />
                         <Route path="/contact" component={About} />
                         <Route path="/techstack" component={Techstack} />

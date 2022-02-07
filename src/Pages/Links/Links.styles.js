@@ -9,8 +9,11 @@ export const useStyles = makeStyles((theme) => ({
         flexDirection: "row",
         justifyContent: 'flex-end',
         color: theme.palette.common.green.main,
-        // marginTop: '-2rem',
+        marginTop: '-1rem',
         marginRight: '2.5rem',
+        '@media screen and (max-width: 767px)': {
+          marginTop: '.5rem',
+        },
         // position: 'fixed'
 
         // padding: '2rem'
@@ -44,7 +47,8 @@ export const useStyles = makeStyles((theme) => ({
           borderStyle: 'solid',
           borderRadius: '5px',
           backgroundColor: theme.palette.common.green.main,
-          color: theme.palette.primary.main
+          color: theme.palette.primary.main,
+          textDecoration: 'none'
         }
       },
     }

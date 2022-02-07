@@ -5,14 +5,15 @@ export const useStyles = makeStyles((theme) => ({
     root: {
         background: theme.palette.common.green.main,
         width: '100%',
-        height: '10rem',
+        height: '7rem',
         position: 'absolute',
         left: '0',
         bottom: '0',
         top: '10',
         marginTop: '12rem',
         '@media screen and (max-width: 767px)': {
-            height: '8rem'
+            height: '8rem',
+            marginTop: '5rem'
         },
     },
     container: {
@@ -21,17 +22,24 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
     },
     title: {
-        color: theme.palette.common.primary, //white
+        color: theme.palette.primary.main, //white
         fontSize: '1.3rem',
-        marginTop: '2rem'
+        marginTop: '2rem',
+        fontWeight: 'bold'
     },
     icon: {
         fontSize: '1.8rem',
         padding: '.5rem',
-        color: theme.palette.common.primary, //white
+        color: theme.palette.primary.main, //white
         '&:hover': {
             // backgroundColor: theme.palette.common.blue.main,
-            color: theme.palette.common.slate.main
+            // color: theme.palette.common.slate.main,
+            backgroundColor: theme.palette.common.green.main,
+            color: theme.palette.primary.main,
+            textDecoration: 'none',
+            // border: theme.palette.common.green.main,
+            // borderStyle: 'solid',
+            borderRadius: '5px',
         },
     },
     icons: {

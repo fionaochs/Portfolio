@@ -59,15 +59,21 @@ export const useStyles = makeStyles((theme) => ({
         color: theme.palette.common.green.main,
         fontSize: "1.3rem",
         padding: '.5rem .5rem .5rem .5rem',
+        fontWeight: 'bold',
         // marginLeft: '.5rem',
-        border: theme.palette.common.green.main,
-        borderStyle: 'solid',
-        borderRadius: '5px',
-        transition: 'all .5s ease',
+        // border: theme.palette.common.green.main,
+        // borderStyle: 'solid',
+        // borderRadius: '5px',
+        // transition: 'all .5s ease',
         outline: 'none',
         '&:hover': {
             backgroundColor: theme.palette.common.green.main,
-            color: theme.palette.primary.main
+            color: theme.palette.primary.main,
+            textDecoration: 'none',
+            // border: theme.palette.common.green.main,
+            // borderStyle: 'solid',
+            borderRadius: '5px',
+            // transition: 'all .5s ease'
         }
     },
     title: {
@@ -81,7 +87,7 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         flexDirection: 'column',
         alignItems: 'center',
-        marginBottom: '5rem',
+        marginBottom: '.5rem',
         marginRight: '15rem',
         padding: '1rem',
         color: theme.palette.common.slate.main,
@@ -94,7 +100,13 @@ export const useStyles = makeStyles((theme) => ({
         padding: '.5rem',
         color: theme.palette.common.green.main, //white
         '&:hover': {
-            color: theme.palette.common.slate.main,
+            // color: theme.palette.common.slate.main,
+            backgroundColor: theme.palette.common.green.main,
+            color: theme.palette.primary.main,
+            textDecoration: 'none',
+            // border: theme.palette.common.green.main,
+            // borderStyle: 'solid',
+            borderRadius: '5px',
         },
 
     },
@@ -104,7 +116,7 @@ export const useStyles = makeStyles((theme) => ({
         marginTop: '1.5rem',
         '@media screen and (max-width: 767px)': {
             margin: '0 0 10rem 0',
-            fontSize: '1rem'
+            fontSize: '1rem',
         },
         // padding: '1rem'
     },

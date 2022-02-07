@@ -10,13 +10,13 @@ export const ProjectsContainer = () => {
   
     const handleIncrement = (event) => {
       event.preventDefault();
-      if(index === 4) setIndex(0);
+      if(index === 2) setIndex(0);
       else setIndex(index + 1);
     };
   
     const handleDecrement = (event) => {
       event.preventDefault();
-      if(index === 0) setIndex(4);
+      if(index === 0) setIndex(2);
       else setIndex(index - 1);
     };
     return (

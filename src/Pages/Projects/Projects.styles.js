@@ -18,7 +18,10 @@ export const useStyles = makeStyles((theme) => ({
       justifyContent: 'center',
       margin: '1rem 1rem 2rem 1rem',
       borderBottom: '1px solid #0b7d82',
-      paddingBottom: '2rem'
+      paddingBottom: '2rem',
+        '@media screen and (max-width: 767px)': {
+            paddingBottom: '6rem',
+        },
 
     },
     h3: {

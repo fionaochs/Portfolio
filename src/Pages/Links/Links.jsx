@@ -12,8 +12,8 @@ export const Links = () => {
     return (
         <Grid container className={classes.root}>
             <Grid item xs={12} className={classes.links}>
-                <Link className={classes.link} href="/">Home</Link>
-                <Link className={classes.link} href="/work">Work</Link>
+                {/*<Link className={classes.link} href="/">Home</Link>*/}
+                <Link className={classes.link} href="/">Work</Link>
                 <Link className={classes.link} href="/techstack">Tech Stack</Link>
                 <Link className={classes.link} href="/about">About</Link>
                 <Link className={classes.link} href="/contact">Contact</Link>

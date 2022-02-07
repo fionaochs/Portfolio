@@ -3,6 +3,7 @@ import groupies from '../Assets/groupies.png'
 import alchimia from '../Assets/alchimia1.png'
 import gabbi from '../Assets/gabbi-logo-red.png'
 import viral from '../Assets/GoingViralLogo.png'
+import sw from '../Assets/sw.png'
 
 // export const langArr = ['JavaScript', 'HTML', 'CSS'];
 
@@ -16,6 +17,16 @@ import viral from '../Assets/GoingViralLogo.png'
 
 
 export const projects = [
+  {
+    title: 'SugarWOD',
+    img: sw,
+    description: 'Workout software for coaches and athletes',
+    tech: ['Javascript, Node, React, MongoDB, Algolia, Stripe, Pendo'],
+    bulletList: ['In charge of server and web app', 'Implemented React UI user signup with stripe payment processing',
+      'Designed and owned features end to end', 'Documented server architecture'],
+    liveLink: 'https://www.sugarwod.com/',
+    repoLink: null
+  },
   {
     title: 'Going Viral',
     img: viral,
@@ -32,7 +43,7 @@ export const projects = [
     img: gabbi,
     description: 'Digital health platform for women.',
     tech: ['Node.JS, React, MongoDB'],
-    bulletList: ['TDD for back end routes and models in Node', 'Connect to MongoDB', 'Integrate data with React front end', 'Material UI for responsive mobile design'],
+    bulletList: ['In charge of test driven development for the server', 'Utilized MongoDB for securing personal health information', 'Maintained HIPAA level security', 'Integrated data with React front end', 'Used Material UI for responsive mobile design'],
     liveLink: 'https://www.begabbi.com/',
     repoLink: null
   },
@@ -68,6 +79,5 @@ export const projects = [
   //
   //   liveLink: 'https://shadespeare-insults.herokuapp.com/',
   //   repoLink: 'https://github.com/Shakespeare-Insult-Bot'
-  // },
-
+  // }
 ];
